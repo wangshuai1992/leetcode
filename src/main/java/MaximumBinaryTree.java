@@ -28,7 +28,7 @@ public class MaximumBinaryTree {
         } else if(right.length != 0) {
             treeNode.right = constructMaximumBinaryTree(right);
         }
-        
+
         return treeNode;
     }
 

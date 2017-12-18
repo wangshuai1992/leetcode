@@ -48,7 +48,7 @@ public class EncodeandDecodeTinyURL {
     public static void main(String[] args) {
         EncodeandDecodeTinyURL codec = new EncodeandDecodeTinyURL();
         String url = "https://leetcode.com/problems/design-tinyurl";
-        System.out.println("url: " + url);
+        System.out.println("url: http://tinyurl.com/" + url);
 
         String tiny = codec.encode(url);
         System.out.println("tiny: " + tiny);

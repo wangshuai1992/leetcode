@@ -1,4 +1,5 @@
-import java.util.Arrays;
+import java.util.Deque;
+import java.util.LinkedList;
 
 /**
  * https://leetcode.com/problems/maximum-binary-tree/description/
@@ -9,6 +10,8 @@ import java.util.Arrays;
  */
 public class MaximumBinaryTree {
 
+    /**
+     *
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         int rootIndex = getMaxIndex(nums);
 
@@ -43,6 +46,29 @@ public class MaximumBinaryTree {
             }
         }
         return maxIndex;
+    }
+
+     */
+
+    /**
+     * Each node went into stack once, and went out stack once. Worst case time complexity O(N).
+     * @param nums
+     * @return
+     */
+    public TreeNode constructMaximumBinaryTree(int[] nums) {
+        Deque<TreeNode> stack = new LinkedList<>();
+        for (int num : nums) {
+            TreeNode curr = new TreeNode(num);
+            while (!stack.isEmpty() && stack.peek().val < num) {
+                curr.left = stack.pop();
+            }
+            if (!stack.isEmpty()) {
+                stack.peek().right = curr;
+            }
+            stack.push(curr);
+        }
+
+        return stack.isEmpty() ? null : stack.removeLast();
     }
 
     /**

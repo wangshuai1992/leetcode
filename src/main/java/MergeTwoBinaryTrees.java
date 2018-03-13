@@ -15,7 +15,7 @@ public class MergeTwoBinaryTrees {
         result.left = mergeTrees(t1.left, t2.left);
         result.right = mergeTrees(t1.right, t2.right);
         return result;
-        
+
     }
 
     class TreeNode {

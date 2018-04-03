@@ -15,4 +15,7 @@
 |763|[Partition Labels](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/PartitionLabels.java)|Medium|Java||
 |537|[Complex Number Multiplication](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/ComplexNumberMultiplication.java)|Medium|Java||
 |807|[Max Increase to Keep City Skyline](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/MaxIncreaseToKeepCitySkyline.java)|Medium|Java||
-|561|[ArrayPartitionI](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/ArrayPartitionI.java)|Easy|Java||
+|561|[Unique Morse Code Words](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/UniqueMorseCodeWords.java)|Easy|Java||
+|806|[Number of Lines To Write String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/NumberOfLinesToWriteString.java)|Easy|Java||
+|419|[Battleships in a Board](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/BattleshipsInABoard.java)|Medium|Java||
+|338|[Counting Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/CountingBits.java)|Medium|Java||

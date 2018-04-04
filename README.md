@@ -19,3 +19,5 @@
 |806|[Number of Lines To Write String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/NumberOfLinesToWriteString.java)|Easy|Java||
 |419|[Battleships in a Board](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/BattleshipsInABoard.java)|Medium|Java||
 |338|[Counting Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/CountingBits.java)|Medium|Java||
+|811|[Subdomain Visit Count](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/SubdomainVisitCount.java)|Easy|Java||
+|476|[Number Complement](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/NumberComplement.java)|Easy|Java||

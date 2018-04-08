@@ -21,3 +21,10 @@
 |338|[Counting Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/CountingBits.java)|Medium|Java||
 |811|[Subdomain Visit Count](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/SubdomainVisitCount.java)|Easy|Java||
 |476|[Number Complement](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/NumberComplement.java)|Easy|Java||
+|344|[Reverse String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/ReverseString.java)|Easy|Java||
+|791|[Custom Sort String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/CustomSortString.java)|Medium|Java||
+|557|[Reverse Words in a String III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/ReverseWordsInAStringIII.java)|Easy|Java||
+|500|[Keyboard Row](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/KeyboardRow.java)|Easy|Java||
+|814|[Binary Tree Pruning](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/BinaryTreePruning.java)|Medium|Java||
+|412|[Fizz Buzz](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/FizzBuzz.java)|Easy|Java||
+|669|[Trim a Binary Search Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/TrimBinarySearchTree.java)|Easy|Java||

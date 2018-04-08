@@ -14,10 +14,12 @@
 |557|[Reverse Words in a String III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/ReverseWordsInAStringIII.java)|Easy|Java||
 |561|[ArrayPartitionI](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/ArrayPartitionI.java)|Easy|Java||
 |561|[Unique Morse Code Words](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/UniqueMorseCodeWords.java)|Easy|Java||
+|575|[Distribute Candies](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/DistributeCandies.java)|Easy|Java||
 |617|[Merge Two Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/MergeTwoBinaryTrees.java)|Easy|Java||
 |654|[Maximum Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/MaximumBinaryTree.java)|Medium|Java||
 |657|[Judge Route Circle](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/JudgeRouteCircle.java)|Easy|Java||
 |669|[Trim a Binary Search Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/TrimBinarySearchTree.java)|Easy|Java||
+|682|[Baseball Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/BaseballGame.java)|Easy|Java||
 |728|[Self Dividing Numbers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/SelfDividingNumbers.java)|Easy|Java||
 |763|[Partition Labels](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/PartitionLabels.java)|Medium|Java||
 |771|[Jewels and Stones](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/JewelsAndStones.java)|Easy|Java||

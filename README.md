@@ -42,3 +42,9 @@
 |807|[Max Increase to Keep City Skyline](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/MaxIncreaseToKeepCitySkyline.java)|Medium|Java||
 |811|[Subdomain Visit Count](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/SubdomainVisitCount.java)|Easy|Java||
 |814|[Binary Tree Pruning](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/BinaryTreePruning.java)|Medium|Java||
+|136|[Single Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/SingleNumber.java)|Easy|Java||
+|292|[Nim Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/NimGame.java)|Easy|Java||
+|553|[Optimal Division](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/OptimalDivision.java)|Medium|Java||
+|762|[Prime Number of Set Bits in Binary Representation](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/PrimeNumberOfSetBitsInBinaryRepresentation.java)|Easy|Java||
+|104|[Maximum Depth of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/MaximumDepthOfBinaryTree.java)|Easy|Java||
+|647|[Palindromic Substrings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/PalindromicSubstrings.java)|Medium|Java||

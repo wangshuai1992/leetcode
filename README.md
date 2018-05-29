@@ -42,16 +42,21 @@
 |682|[Baseball Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BaseballGame.java)|Easy|Java||
 |693|[Binary Number with Alternating Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryNumberWithAlternatingBits.java)|Easy|Java||
 |728|[Self Dividing Numbers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SelfDividingNumbers.java)|Easy|Java||
+|739|[Daily Temperatures](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DailyTemperatures.java)|Medium|Java||
 |762|[Prime Number of Set Bits in Binary Representation](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PrimeNumberOfSetBitsInBinaryRepresentation.java)|Easy|Java||
 |763|[Partition Labels](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PartitionLabels.java)|Medium|Java||
 |766|[Toeplitz Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ToeplitzMatrix.java)|Easy|Java||
 |771|[Jewels and Stones](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/JewelsAndStones.java)|Easy|Java||
+|784|[Letter Case Permutation](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LetterCasePermutation.java)|Easy|Java||
 |791|[Custom Sort String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CustomSortString.java)|Medium|Java||
 |796|[Rotate String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RotateString.java)|Easy|Java||
 |797|[All Paths From Source to Target](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AllPathsFromSourceToTarget.java)|Medium|Java||
 |806|[Number of Lines To Write String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberOfLinesToWriteString.java)|Easy|Java||
 |807|[Max Increase to Keep City Skyline](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaxIncreaseToKeepCitySkyline.java)|Medium|Java||
 |811|[Subdomain Visit Count](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SubdomainVisitCount.java)|Easy|Java||
+|812|[Largest Triangle Area](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LargestTriangleArea.java)|Easy|Java||
 |814|[Binary Tree Pruning](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePruning.java)|Medium|Java||
 |821|[Shortest Distance to a Character](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ShortestDistanceToACharacter.java)|Easy|Java||
 |824|[Goat Latin](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GoatLatin.java)|Easy|Java||
+|832|[Flipping an Image](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlippingAnImage.java)|Easy|Java||
+|841|[Keys and Rooms](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KeysAndRooms.java)|Medium|Java||

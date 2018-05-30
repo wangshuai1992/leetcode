@@ -44,7 +44,7 @@ public class FindLargestValueInEachTreeRow {
         return result;
     }
 
-    static class TreeNode {
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

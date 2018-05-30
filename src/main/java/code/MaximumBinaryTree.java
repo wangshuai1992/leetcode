@@ -76,7 +76,7 @@ public class MaximumBinaryTree {
     /**
      * Definition for a binary tree node.
      */
-    class TreeNode {
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

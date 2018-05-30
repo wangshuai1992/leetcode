@@ -56,7 +56,7 @@ public class AverageOfLevelsInBinaryTree {
         System.out.println(new AverageOfLevelsInBinaryTree().averageOfLevels(root));
     }
 
-    static class TreeNode {
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

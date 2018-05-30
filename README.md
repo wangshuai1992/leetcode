@@ -21,6 +21,7 @@
 |485|[Max Consecutive Ones](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaxConsecutiveOnes.java)|Easy|Java||
 |496|[Next Greater Element I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NextGreaterElementI.java)|Easy|Java||
 |500|[Keyboard Row](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KeyboardRow.java)|Easy|Java||
+|508|[Most Frequent Subtree Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MostFrequentSubtreeSum.java)|Medium|Java||
 |513|[Find Bottom Left Tree Value](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindBottomLeftTreeValue.java)|Medium|Java||
 |515|[Find Largest Value in Each Tree Row](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindLargestValueInEachTreeRow.java)|Medium|Java||
 |521|[Longest Uncommon Subsequence I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestUncommonSubsequenceI.java)|Easy|Java||
@@ -33,6 +34,7 @@
 |561|[Unique Morse Code Words](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueMorseCodeWords.java)|Easy|Java||
 |566|[Reshape the Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReshapeTheMatrix.java)|Easy|Java||
 |575|[Distribute Candies](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DistributeCandies.java)|Easy|Java||
+|609|[Find Duplicate File in System](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindDuplicateFileInSystem.java)|Medium|Java||
 |617|[Merge Two Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoBinaryTrees.java)|Easy|Java||
 |637|[Average of Levels in Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AverageOfLevelsInBinaryTree.java)|Easy|Java||
 |647|[Palindromic Substrings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PalindromicSubstrings.java)|Medium|Java||

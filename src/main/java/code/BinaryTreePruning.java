@@ -29,7 +29,7 @@ public class BinaryTreePruning {
         return root;
     }
 
-    public class TreeNode {
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

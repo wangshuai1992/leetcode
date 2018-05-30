@@ -20,7 +20,7 @@ public class MergeTwoBinaryTrees {
 
     }
 
-    class TreeNode {
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

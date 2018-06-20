@@ -5,8 +5,10 @@
 |104|[Maximum Depth of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfBinaryTree.java)|Easy|Java||
 |136|[Single Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumber.java)|Easy|Java||
 |226|[Invert Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/InvertBinaryTree.java)|Easy|Java||
+|258|[Add Digits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AddDigits.java)|Easy|Java||
 |260|[Single Number III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumberIII.java)|Medium|Java||
 |260|[Beautiful Arrangement](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BeautifulArrangement.java)|Medium|Java||
+|283|[Move Zeroes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MoveZeroes.java)|Easy|Java||
 |292|[Nim Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NimGame.java)|Easy|Java||
 |338|[Counting Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CountingBits.java)|Medium|Java||
 |344|[Reverse String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseString.java)|Easy|Java||
@@ -15,7 +17,10 @@
 |413|[Arithmetic Slices](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ArithmeticSlices.java)|Medium|Java||
 |419|[Battleships in a Board](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BattleshipsInABoard.java)|Medium|Java||
 |442|[Find All Duplicates in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllDuplicatesInAnArray.java)|Medium|Java||
+|451|[Sort Characters By Frequency](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortCharactersByFrequency.java)|Medium|Java||
+|453|[Minimum Moves to Equal Array Elements](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumMovesToEqualArrayElements.java)|Easy|Java||
 |461|[Hamming Distance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HammingDistance.java)|Easy|Java||
+|462|[Minimum Moves to Equal Array Elements II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumMovesToEqualArrayElementsII.java)|Medium|Java||
 |463|[Island Perimeter](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/IslandPerimeter.java)|Easy|Java||
 |476|[Number Complement](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberComplement.java)|Easy|Java||
 |485|[Max Consecutive Ones](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaxConsecutiveOnes.java)|Easy|Java||
@@ -24,6 +29,7 @@
 |508|[Most Frequent Subtree Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MostFrequentSubtreeSum.java)|Medium|Java||
 |513|[Find Bottom Left Tree Value](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindBottomLeftTreeValue.java)|Medium|Java||
 |515|[Find Largest Value in Each Tree Row](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindLargestValueInEachTreeRow.java)|Medium|Java||
+|520|[Detect Capital](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DetectCapital.java)|Easy|Java||
 |521|[Longest Uncommon Subsequence I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestUncommonSubsequenceI.java)|Easy|Java||
 |535|[Encode and Decode TinyURL](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EncodeandDecodeTinyURL.java)|Medium|Java||
 |537|[Complex Number Multiplication](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ComplexNumberMultiplication.java)|Medium|Java||
@@ -42,9 +48,12 @@
 |657|[Judge Route Circle](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/JudgeRouteCircle.java)|Easy|Java||
 |669|[Trim a Binary Search Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TrimBinarySearchTree.java)|Easy|Java||
 |682|[Baseball Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BaseballGame.java)|Easy|Java||
+|690|[Employee Importance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EmployeeImportance.java)|Easy|Java||
 |693|[Binary Number with Alternating Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryNumberWithAlternatingBits.java)|Easy|Java||
+|695|[Max Area of Island](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaxAreaOfIsland.java)|Easy|Java||
 |728|[Self Dividing Numbers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SelfDividingNumbers.java)|Easy|Java||
 |739|[Daily Temperatures](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DailyTemperatures.java)|Medium|Java||
+|748|[Shortest Completing Word](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ShortestCompletingWord.java)|Medium|Java||
 |762|[Prime Number of Set Bits in Binary Representation](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PrimeNumberOfSetBitsInBinaryRepresentation.java)|Easy|Java||
 |763|[Partition Labels](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PartitionLabels.java)|Medium|Java||
 |766|[Toeplitz Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ToeplitzMatrix.java)|Easy|Java||
@@ -62,3 +71,4 @@
 |824|[Goat Latin](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GoatLatin.java)|Easy|Java||
 |832|[Flipping an Image](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlippingAnImage.java)|Easy|Java||
 |841|[Keys and Rooms](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KeysAndRooms.java)|Medium|Java||
+|852|[Peak Index in a Mountain Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PeakIndexInAMountainArray.java)|Easy|Java||

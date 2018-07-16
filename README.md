@@ -12,6 +12,7 @@
 |292|[Nim Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NimGame.java)|Easy|Java||
 |338|[Counting Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CountingBits.java)|Medium|Java||
 |344|[Reverse String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseString.java)|Easy|Java||
+|389|[Find the Difference](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindTheDifference.java)|Easy|Java||
 |406|[Queue Reconstruction by Height](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/QueueReconstructionByHeight.java)|Medium|Java||
 |412|[Fizz Buzz](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FizzBuzz.java)|Easy|Java||
 |413|[Arithmetic Slices](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ArithmeticSlices.java)|Medium|Java||
@@ -24,6 +25,7 @@
 |463|[Island Perimeter](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/IslandPerimeter.java)|Easy|Java||
 |476|[Number Complement](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberComplement.java)|Easy|Java||
 |485|[Max Consecutive Ones](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaxConsecutiveOnes.java)|Easy|Java||
+|495|[Teemo Attacking](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TeemoAttacking.java)|Medium|Java||
 |496|[Next Greater Element I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NextGreaterElementI.java)|Easy|Java||
 |500|[Keyboard Row](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KeyboardRow.java)|Easy|Java||
 |508|[Most Frequent Subtree Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MostFrequentSubtreeSum.java)|Medium|Java||
@@ -46,11 +48,13 @@
 |647|[Palindromic Substrings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PalindromicSubstrings.java)|Medium|Java||
 |654|[Maximum Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumBinaryTree.java)|Medium|Java||
 |657|[Judge Route Circle](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/JudgeRouteCircle.java)|Easy|Java||
+|667|[Beautiful Arrangement II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BeautifulArrangementII.java)|Medium|Java||
 |669|[Trim a Binary Search Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TrimBinarySearchTree.java)|Easy|Java||
 |682|[Baseball Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BaseballGame.java)|Easy|Java||
 |690|[Employee Importance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EmployeeImportance.java)|Easy|Java||
 |693|[Binary Number with Alternating Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryNumberWithAlternatingBits.java)|Easy|Java||
 |695|[Max Area of Island](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaxAreaOfIsland.java)|Easy|Java||
+|712|[Minimum ASCII Delete Sum for Two Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumASCIIDeleteSumForTwoStrings.java)|Medium|Java||
 |728|[Self Dividing Numbers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SelfDividingNumbers.java)|Easy|Java||
 |739|[Daily Temperatures](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DailyTemperatures.java)|Medium|Java||
 |748|[Shortest Completing Word](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ShortestCompletingWord.java)|Medium|Java||

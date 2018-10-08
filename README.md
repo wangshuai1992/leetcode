@@ -54,6 +54,7 @@
 |690|[Employee Importance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EmployeeImportance.java)|Easy|Java||
 |693|[Binary Number with Alternating Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryNumberWithAlternatingBits.java)|Easy|Java||
 |695|[Max Area of Island](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaxAreaOfIsland.java)|Easy|Java||
+|709|[To Lower Case](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ToLowerCase.java)|Easy|Java||
 |712|[Minimum ASCII Delete Sum for Two Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumASCIIDeleteSumForTwoStrings.java)|Medium|Java||
 |728|[Self Dividing Numbers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SelfDividingNumbers.java)|Easy|Java||
 |739|[Daily Temperatures](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DailyTemperatures.java)|Medium|Java||
@@ -76,3 +77,4 @@
 |832|[Flipping an Image](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlippingAnImage.java)|Easy|Java||
 |841|[Keys and Rooms](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KeysAndRooms.java)|Medium|Java||
 |852|[Peak Index in a Mountain Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PeakIndexInAMountainArray.java)|Easy|Java||
+|861|[Score After Flipping Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ScoreAfterFlippingMatrix.java)|Medium|Java||

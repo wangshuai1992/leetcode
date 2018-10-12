@@ -38,10 +38,13 @@
 |540|[Single Element in a Sorted Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleElementInASortedArray.java)|Medium|Java||
 |553|[Optimal Division](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/OptimalDivision.java)|Medium|Java||
 |557|[Reverse Words in a String III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseWordsInAStringIII.java)|Easy|Java||
+|559|[Maximum Depth of N-ary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfNaryTree.java)|Easy|Java||
 |561|[ArrayPartitionI](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ArrayPartitionI.java)|Easy|Java||
 |561|[Unique Morse Code Words](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueMorseCodeWords.java)|Easy|Java||
 |566|[Reshape the Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReshapeTheMatrix.java)|Easy|Java||
 |575|[Distribute Candies](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DistributeCandies.java)|Easy|Java||
+|589|[N-ary Tree Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreePreorderTraversal.java)|Easy|Java||
+|590|[N-ary Tree Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreePostorderTraversal.java)|Easy|Java||
 |609|[Find Duplicate File in System](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindDuplicateFileInSystem.java)|Medium|Java||
 |617|[Merge Two Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoBinaryTrees.java)|Easy|Java||
 |637|[Average of Levels in Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AverageOfLevelsInBinaryTree.java)|Easy|Java||
@@ -54,6 +57,8 @@
 |690|[Employee Importance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EmployeeImportance.java)|Easy|Java||
 |693|[Binary Number with Alternating Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryNumberWithAlternatingBits.java)|Easy|Java||
 |695|[Max Area of Island](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaxAreaOfIsland.java)|Easy|Java||
+|700|[Search in a Binary Search Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SearchInABinarySearchTree.java)|Easy|Java||
+|701|[Insert into a Binary Search Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/InsertIntoABinarySearchTree.java)|Medium|Java||
 |709|[To Lower Case](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ToLowerCase.java)|Easy|Java||
 |712|[Minimum ASCII Delete Sum for Two Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumASCIIDeleteSumForTwoStrings.java)|Medium|Java||
 |728|[Self Dividing Numbers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SelfDividingNumbers.java)|Easy|Java||
@@ -78,3 +83,12 @@
 |841|[Keys and Rooms](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KeysAndRooms.java)|Medium|Java||
 |852|[Peak Index in a Mountain Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PeakIndexInAMountainArray.java)|Easy|Java||
 |861|[Score After Flipping Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ScoreAfterFlippingMatrix.java)|Medium|Java||
+|867|[Transpose Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TransposeMatrix.java)|Easy|Java||
+|876|[Middle of the Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MiddleOfTheLinkedList.java)|Easy|Java||
+|883|[Projection Area of 3D Shapes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ProjectionAreaOf3DShapes.java)|Easy|Java||
+|885|[Spiral Matrix III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SpiralMatrixIII.java)|Medium|Java||
+|890|[Find and Replace Pattern](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAndReplacePattern.java)|Medium|Java||
+|893|[Groups of Special-Equivalent Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GroupsOfSpecialEquivalentStrings.java)|Easy|Java||
+|894|[All Possible Full Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AllPossibleFullBinaryTrees.java)|Medium|Java||
+|905|[Sort Array By Parity](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortArrayByParity.java)|Easy|Java||
+|908|[Smallest Range I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SmallestRangeI.java)|Easy|Java||

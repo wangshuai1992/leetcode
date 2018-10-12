@@ -84,6 +84,8 @@
 |852|[Peak Index in a Mountain Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PeakIndexInAMountainArray.java)|Easy|Java||
 |861|[Score After Flipping Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ScoreAfterFlippingMatrix.java)|Medium|Java||
 |867|[Transpose Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TransposeMatrix.java)|Easy|Java||
+|868|[Binary Gap](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryGap.java)|Easy|Java||
+|872|[Uncommon Words from Two Sentences](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UncommonWordsFromTwoSentences.java)|Easy|Java||
 |876|[Middle of the Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MiddleOfTheLinkedList.java)|Easy|Java||
 |883|[Projection Area of 3D Shapes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ProjectionAreaOf3DShapes.java)|Easy|Java||
 |885|[Spiral Matrix III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SpiralMatrixIII.java)|Medium|Java||

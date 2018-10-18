@@ -2,8 +2,11 @@
 
 | Squence | Problem       | Level  | Language  | Tutorial|
 |:-------:|:--------------|:------:|:---------:|:-------------:|
+|94|[Binary Tree Inorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeInorderTraversal.java)|Medium|Java||
 |104|[Maximum Depth of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfBinaryTree.java)|Easy|Java||
 |136|[Single Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumber.java)|Easy|Java||
+|144|[Binary Tree Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePreorderTraversal.java)|Medium|Java||
+|145|[Binary Tree Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePostorderTraversal.java)|Hard|Java||
 |226|[Invert Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/InvertBinaryTree.java)|Easy|Java||
 |258|[Add Digits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AddDigits.java)|Easy|Java||
 |260|[Single Number III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumberIII.java)|Medium|Java||
@@ -87,10 +90,15 @@
 |868|[Binary Gap](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryGap.java)|Easy|Java||
 |872|[Uncommon Words from Two Sentences](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UncommonWordsFromTwoSentences.java)|Easy|Java||
 |876|[Middle of the Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MiddleOfTheLinkedList.java)|Easy|Java||
+|877|[Stone Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/StoneGame.java)|Medium|Java||
 |883|[Projection Area of 3D Shapes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ProjectionAreaOf3DShapes.java)|Easy|Java||
 |885|[Spiral Matrix III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SpiralMatrixIII.java)|Medium|Java||
 |890|[Find and Replace Pattern](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAndReplacePattern.java)|Medium|Java||
 |893|[Groups of Special-Equivalent Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GroupsOfSpecialEquivalentStrings.java)|Easy|Java||
 |894|[All Possible Full Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AllPossibleFullBinaryTrees.java)|Medium|Java||
+|897|[Increasing Order Search Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/IncreasingOrderSearchTree.java)|Easy|Java||
 |905|[Sort Array By Parity](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortArrayByParity.java)|Easy|Java||
 |908|[Smallest Range I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SmallestRangeI.java)|Easy|Java||
+|917|[Reverse Only Letters](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseOnlyLetters.java)|Easy|Java||
+|921|[Minimum Add to Make Parentheses Valid](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumAddToMakeParenthesesValid.java)|Medium|Java||
+|922|[Sort Array By Parity II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortArrayByParityII.java)|Easy|Java||

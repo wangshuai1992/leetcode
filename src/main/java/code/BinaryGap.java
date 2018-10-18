@@ -13,19 +13,12 @@ public class BinaryGap {
         String bin = Integer.toBinaryString(n);
 
         int result = 0;
-        int preIndex = 0;
 
-        //正在遍历开头的0
-        boolean starting = true;
+        //第一位必定为1
+        int preIndex = 0;
 
         for(int i=0; i<bin.length(); i++) {
             char c = bin.charAt(i);
-            if('1' == c && starting) {
-                //进入正式状态
-                starting = false;
-                preIndex = i;
-                continue;
-            }
 
             if('1' == c) {
                 if(preIndex + 1 == i) {

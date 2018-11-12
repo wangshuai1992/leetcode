@@ -20,6 +20,7 @@
 |412|[Fizz Buzz](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FizzBuzz.java)|Easy|Java||
 |413|[Arithmetic Slices](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ArithmeticSlices.java)|Medium|Java||
 |419|[Battleships in a Board](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BattleshipsInABoard.java)|Medium|Java||
+|429|[N-ary Tree Level Order Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreeLevelOrderTraversal.java)|Easy|Java||
 |442|[Find All Duplicates in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllDuplicatesInAnArray.java)|Medium|Java||
 |451|[Sort Characters By Frequency](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortCharactersByFrequency.java)|Medium|Java||
 |453|[Minimum Moves to Equal Array Elements](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumMovesToEqualArrayElements.java)|Easy|Java||
@@ -85,6 +86,7 @@
 |832|[Flipping an Image](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlippingAnImage.java)|Easy|Java||
 |841|[Keys and Rooms](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KeysAndRooms.java)|Medium|Java||
 |852|[Peak Index in a Mountain Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PeakIndexInAMountainArray.java)|Easy|Java||
+|856|[Score of Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ScoreOfParentheses.java)|Medium|Java||
 |861|[Score After Flipping Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ScoreAfterFlippingMatrix.java)|Medium|Java||
 |867|[Transpose Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TransposeMatrix.java)|Easy|Java||
 |868|[Binary Gap](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryGap.java)|Easy|Java||
@@ -93,12 +95,21 @@
 |877|[Stone Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/StoneGame.java)|Medium|Java||
 |883|[Projection Area of 3D Shapes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ProjectionAreaOf3DShapes.java)|Easy|Java||
 |885|[Spiral Matrix III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SpiralMatrixIII.java)|Medium|Java||
+|888|[Fair Candy Swap](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FairCandySwap.java)|Easy|Java||
+|889|[Construct Binary Tree from Preorder and Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructBinaryTreeFromPreorderAndPostorderTraversal.java)|Medium|Java||
 |890|[Find and Replace Pattern](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAndReplacePattern.java)|Medium|Java||
+|892|[Surface Area of 3D Shapes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SurfaceAreaOf3DShapes.java)|Easy|Java||
 |893|[Groups of Special-Equivalent Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GroupsOfSpecialEquivalentStrings.java)|Easy|Java||
 |894|[All Possible Full Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AllPossibleFullBinaryTrees.java)|Medium|Java||
+|896|[Monotonic Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MonotonicArray.java)|Easy|Java||
 |897|[Increasing Order Search Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/IncreasingOrderSearchTree.java)|Easy|Java||
 |905|[Sort Array By Parity](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortArrayByParity.java)|Easy|Java||
 |908|[Smallest Range I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SmallestRangeI.java)|Easy|Java||
 |917|[Reverse Only Letters](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseOnlyLetters.java)|Easy|Java||
+|919|[Complete Binary Tree Inserter](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CompleteBinaryTreeInserter.java)|Medium|Java||
 |921|[Minimum Add to Make Parentheses Valid](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumAddToMakeParenthesesValid.java)|Medium|Java||
 |922|[Sort Array By Parity II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortArrayByParityII.java)|Easy|Java||
+|929|[Unique Email Addresses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueEmailAddresses.java)|Easy|Java||
+|931|[Minimum Falling Path Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumFallingPathSum.java)|Medium|Java||
+|933|[Number of Recent Calls](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberOfRecentCalls.java)|Easy|Java||
+|938|[Range Sum of BST](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RangeSumOfBST.java)|Medium|Java||

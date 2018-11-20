@@ -2,6 +2,8 @@
 
 | Squence | Problem       | Level  | Language  | Tutorial|
 |:-------:|:--------------|:------:|:---------:|:-------------:|
+|22|[Generate Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GenerateParentheses.java)|Medium|Java||
+|46|[Permutations](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Permutations.java)|Medium|Java||
 |94|[Binary Tree Inorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeInorderTraversal.java)|Medium|Java||
 |104|[Maximum Depth of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfBinaryTree.java)|Easy|Java||
 |136|[Single Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumber.java)|Easy|Java||
@@ -71,6 +73,9 @@
 |709|[To Lower Case](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ToLowerCase.java)|Easy|Java||
 |712|[Minimum ASCII Delete Sum for Two Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumASCIIDeleteSumForTwoStrings.java)|Medium|Java||
 |728|[Self Dividing Numbers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SelfDividingNumbers.java)|Easy|Java||
+|729|[My Calendar I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MyCalendarI.java)|Medium|Java||
+|731|[My Calendar II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MyCalendarII.java)|Medium|Java||
+|732|[My Calendar III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MyCalendarIII.java)|Hard|Java||
 |739|[Daily Temperatures](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DailyTemperatures.java)|Medium|Java||
 |748|[Shortest Completing Word](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ShortestCompletingWord.java)|Medium|Java||
 |762|[Prime Number of Set Bits in Binary Representation](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PrimeNumberOfSetBitsInBinaryRepresentation.java)|Easy|Java||
@@ -78,6 +83,7 @@
 |766|[Toeplitz Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ToeplitzMatrix.java)|Easy|Java||
 |771|[Jewels and Stones](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/JewelsAndStones.java)|Easy|Java||
 |784|[Letter Case Permutation](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LetterCasePermutation.java)|Easy|Java||
+|788|[Rotated Digits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RotatedDigits.java)|Easy|Java||
 |789|[Escape The Ghosts](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EscapeTheGhosts.java)|Medium|Java||
 |791|[Custom Sort String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CustomSortString.java)|Medium|Java||
 |796|[Rotate String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RotateString.java)|Easy|Java||
@@ -122,3 +128,5 @@
 |933|[Number of Recent Calls](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberOfRecentCalls.java)|Easy|Java||
 |937|[Reorder Log Files](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReorderLogFiles.java)|Easy|Java||
 |938|[Range Sum of BST](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RangeSumOfBST.java)|Medium|Java||
+|942|[DI String Match](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DIStringMatch.java)|Easy|Java||
+|944|[Delete Columns to Make Sorted](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DeleteColumnsToMakeSorted.java)|Medium|Java||

@@ -19,29 +19,30 @@ import java.util.Objects;
 public class ReadmeSort {
 
     public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new FileReader("README.md"));
-        StringBuilder builder = new StringBuilder();
+        StringBuilder builder;
+        try (BufferedReader br = new BufferedReader(new FileReader("README.md"))) {
+            builder = new StringBuilder();
 
-        for (int i = 0; i < 4; i++) {
-            builder.append(br.readLine()).append("\n");
+            for (int i = 0; i < 4; i++) {
+                builder.append(br.readLine()).append("\n");
+            }
+
+            List<DataLine> lineList = new ArrayList<>();
+            String temp;
+            while ((temp = br.readLine()) != null) {
+                DataLine dataLine = new DataLine(temp);
+                lineList.add(dataLine);
+            }
+
+            Collections.sort(lineList);
+            for (DataLine data : lineList) {
+                builder.append(data).append("\n");
+            }
         }
 
-        List<DataLine> lineList = new ArrayList<>();
-        String temp;
-        while ((temp = br.readLine()) != null) {
-            DataLine dataLine = new DataLine(temp);
-            lineList.add(dataLine);
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("README.md", false))) {
+            bw.write(builder.toString());
         }
-
-        Collections.sort(lineList);
-        for(DataLine data : lineList) {
-            builder.append(data).append("\n");
-        }
-        br.close();
-
-        BufferedWriter bw = new BufferedWriter(new FileWriter("README.md", false));
-        bw.write(builder.toString());
-        bw.close();
     }
 
     static class DataLine implements Comparable {

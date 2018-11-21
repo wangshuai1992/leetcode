@@ -78,7 +78,7 @@ public class BinaryTreePostorderTraversal {
             }
 
             cur = stack.pop();
-            // pre == cur.right 表示对某个又子树访问完成
+            // pre == cur.right 表示对某个右子树访问完成
             if(cur.right == null || pre == cur.right){
                 res.add(cur.val);
                 pre = cur;

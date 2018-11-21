@@ -20,6 +20,7 @@
 |338|[Counting Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CountingBits.java)|Medium|Java||
 |344|[Reverse String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseString.java)|Easy|Java||
 |347|[Top K Frequent Elements](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TopKFrequentElements.java)|Medium|Java||
+|371|[Sum of Two Integers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SumOfTwoIntegers.java)|Easy|Java||
 |389|[Find the Difference](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindTheDifference.java)|Easy|Java||
 |406|[Queue Reconstruction by Height](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/QueueReconstructionByHeight.java)|Medium|Java||
 |412|[Fizz Buzz](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FizzBuzz.java)|Easy|Java||
@@ -46,6 +47,7 @@
 |535|[Encode and Decode TinyURL](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EncodeandDecodeTinyURL.java)|Medium|Java||
 |537|[Complex Number Multiplication](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ComplexNumberMultiplication.java)|Medium|Java||
 |540|[Single Element in a Sorted Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleElementInASortedArray.java)|Medium|Java||
+|547|[Friend Circles](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FriendCircles.java)|Medium|Java||
 |553|[Optimal Division](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/OptimalDivision.java)|Medium|Java||
 |557|[Reverse Words in a String III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseWordsInAStringIII.java)|Easy|Java||
 |559|[Maximum Depth of N-ary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfNaryTree.java)|Easy|Java||
@@ -59,6 +61,7 @@
 |617|[Merge Two Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoBinaryTrees.java)|Easy|Java||
 |637|[Average of Levels in Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AverageOfLevelsInBinaryTree.java)|Easy|Java||
 |647|[Palindromic Substrings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PalindromicSubstrings.java)|Medium|Java||
+|653|[Two Sum IV - Input is a BST](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TwoSumIVInputIsABST.java)|Easy|Java||
 |654|[Maximum Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumBinaryTree.java)|Medium|Java||
 |657|[Judge Route Circle](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/JudgeRouteCircle.java)|Easy|Java||
 |667|[Beautiful Arrangement II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BeautifulArrangementII.java)|Medium|Java||

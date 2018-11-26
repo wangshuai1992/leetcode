@@ -11,7 +11,7 @@ import java.util.TreeMap;
  */
 public class MyCalendarIII {
 
-    class MyCalendarThree {
+    private class MyCalendarThree {
 
         private TreeMap<Integer, Integer> map;
 

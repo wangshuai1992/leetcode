@@ -16,7 +16,7 @@ public class MyCalendarII {
     /**
      * brute force
      */
-    class MyCalendarTwo {
+    private class MyCalendarTwo {
 
         List<int[]> calendar;
         List<int[]> overlaps;
@@ -50,7 +50,7 @@ public class MyCalendarII {
      * the number of events open at that time. If the sum is 3 or more, that time is (at least) triple booked.
      *
      */
-    class MyCalendarTwo1 {
+    private class MyCalendarTwo1 {
         TreeMap<Integer, Integer> delta;
 
         public MyCalendarTwo1() {

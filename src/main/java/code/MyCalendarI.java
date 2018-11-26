@@ -16,7 +16,7 @@ public class MyCalendarI {
     /**
      * brute force
      */
-    class MyCalendar {
+    private class MyCalendar {
         List<int[]> calendar;
 
         MyCalendar() {
@@ -37,7 +37,7 @@ public class MyCalendarI {
     /**
      * use treemap
      */
-    class MyCalendar1 {
+    private class MyCalendar1 {
         /**
          * start为key, end为value. 前一个key的value不大于后一个key
          */

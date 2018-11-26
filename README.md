@@ -9,6 +9,7 @@
 |136|[Single Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumber.java)|Easy|Java||
 |144|[Binary Tree Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePreorderTraversal.java)|Medium|Java||
 |145|[Binary Tree Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePostorderTraversal.java)|Hard|Java||
+|206|[Reverse Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseLinkedList.java)|Easy|Java||
 |215|[Kth Largest Element in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KthLargestElementInAnArray.java)|Medium|Java||
 |226|[Invert Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/InvertBinaryTree.java)|Easy|Java||
 |238|[Product of Array Except Self](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ProductOfArrayExceptSelf.java)|Medium|Java||
@@ -44,6 +45,7 @@
 |515|[Find Largest Value in Each Tree Row](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindLargestValueInEachTreeRow.java)|Medium|Java||
 |520|[Detect Capital](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DetectCapital.java)|Easy|Java||
 |521|[Longest Uncommon Subsequence I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestUncommonSubsequenceI.java)|Easy|Java||
+|529|[Minesweeper](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Minesweeper.java)|Medium|Java||
 |535|[Encode and Decode TinyURL](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EncodeandDecodeTinyURL.java)|Medium|Java||
 |537|[Complex Number Multiplication](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ComplexNumberMultiplication.java)|Medium|Java||
 |540|[Single Element in a Sorted Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleElementInASortedArray.java)|Medium|Java||
@@ -57,6 +59,7 @@
 |575|[Distribute Candies](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DistributeCandies.java)|Easy|Java||
 |589|[N-ary Tree Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreePreorderTraversal.java)|Easy|Java||
 |590|[N-ary Tree Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreePostorderTraversal.java)|Easy|Java||
+|606|[ConstructStringFromBinaryTree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructStringFromBinaryTree.java)|Easy|Java||
 |609|[Find Duplicate File in System](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindDuplicateFileInSystem.java)|Medium|Java||
 |617|[Merge Two Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoBinaryTrees.java)|Easy|Java||
 |637|[Average of Levels in Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AverageOfLevelsInBinaryTree.java)|Easy|Java||
@@ -66,6 +69,7 @@
 |657|[Judge Route Circle](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/JudgeRouteCircle.java)|Easy|Java||
 |667|[Beautiful Arrangement II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BeautifulArrangementII.java)|Medium|Java||
 |669|[Trim a Binary Search Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TrimBinarySearchTree.java)|Easy|Java||
+|677|[Map Sum Pairs](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MapSumPairs.java)|Medium|Java||
 |682|[Baseball Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BaseballGame.java)|Easy|Java||
 |690|[Employee Importance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EmployeeImportance.java)|Easy|Java||
 |693|[Binary Number with Alternating Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryNumberWithAlternatingBits.java)|Easy|Java||
@@ -133,3 +137,4 @@
 |938|[Range Sum of BST](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RangeSumOfBST.java)|Medium|Java||
 |942|[DI String Match](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DIStringMatch.java)|Easy|Java||
 |944|[Delete Columns to Make Sorted](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DeleteColumnsToMakeSorted.java)|Medium|Java||
+|946|[Validate Stack Sequences](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidateStackSequences.java)|Medium|Java||

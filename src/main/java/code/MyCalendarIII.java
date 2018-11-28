@@ -20,7 +20,7 @@ public class MyCalendarIII {
         }
 
         /**
-         * When booking a new event [start, end), count delta[start]++ and delta[end]--.
+         * When booking a new event [start, end), neighborCount delta[start]++ and delta[end]--.
          * When processing the values of delta in sorted order of their keys, the largest such value is the answer.
          *
          * @param start

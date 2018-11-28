@@ -57,10 +57,10 @@ public class MinimumMovesToEqualArrayElements {
 
     /**
      * Math:
-     * 设 len = 数组长度, sum = 原数组的和, min = 原数组的最小值, count = 到达最终状态需要的步数 ,则有
-     *  sum + count * (len - 1) = (min + count) * len
+     * 设 len = 数组长度, sum = 原数组的和, min = 原数组的最小值, neighborCount = 到达最终状态需要的步数 ,则有
+     *  sum + neighborCount * (len - 1) = (min + neighborCount) * len
      *
-     * 解得 count = sum - min * len
+     * 解得 neighborCount = sum - min * len
      *
      * 对结果的理解：
      *

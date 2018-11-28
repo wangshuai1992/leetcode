@@ -38,8 +38,8 @@ public class KeyboardRow {
     }
 
     /*
-    public String[] findWords(String[] words) {
-        return Stream.of(words)
+    public String[] findWords(String[] wordSet) {
+        return Stream.of(wordSet)
                 .filter(s -> s.toLowerCase().matches("[qwertyuiop]+|[asdfghjkl]+|[zxcvbnm]+"))
                 .toArray(String[]::new);
     }

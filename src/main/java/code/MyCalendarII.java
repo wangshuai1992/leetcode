@@ -45,7 +45,7 @@ public class MyCalendarII {
     /**
      * use treemap / Boundary Count
      *
-     * When booking a new event [start, end), count delta[start]++ and delta[end]--.
+     * When booking a new event [start, end), neighborCount delta[start]++ and delta[end]--.
      * When processing the values of delta in sorted order of their keys, the running sum active is
      * the number of events open at that time. If the sum is 3 or more, that time is (at least) triple booked.
      *

@@ -42,7 +42,7 @@ public class GenerateParentheses {
      * Recursive / Closure Number
      *
      * To enumerate something, generally we would like to express it as a sum of
-     * disjoint subsets that are easier to count.
+     * disjoint subsets that are easier to neighborCount.
      *
      * Consider the closure number of a valid parentheses sequence S: the least index >= 0
      * so that S[0], S[1], ..., S[2*index+1] is valid. Clearly, every parentheses sequence has a unique closure number.

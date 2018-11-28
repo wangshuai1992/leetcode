@@ -45,7 +45,7 @@ public class CustomSortString {
     public String customSortString(String S, String T) {
         int[] count = new int[26];
 
-        // count each char in T.
+        // neighborCount each char in T.
         for (char c : T.toCharArray()) {
             ++count[c - 'a'];
         }

@@ -36,7 +36,13 @@ public class MostFrequentSubtreeSum {
 
     }
 
-    //this method return sum of the tree and record it in map
+    /**
+     * this method return sum of the tree and record it in map
+     *
+     * @param root
+     * @param map
+     * @return
+     */
     private int traverseTree(TreeNode root, Map<Integer,Integer> map) {
         if(root == null) {
             return 0;

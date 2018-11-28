@@ -43,7 +43,7 @@ public class MaxAreaOfIsland {
      * squares to visit (stack). For every starting land square that hasn't been visited,
      * we will explore 4-directionally around it, adding land squares that haven't been added to seen or our stack.
      *
-     * On the other side, we'll keep a count shape of the total number of squares seen during the exploration of
+     * On the other side, we'll keep a neighborCount shape of the total number of squares seen during the exploration of
      * this shape. We'll want the running max of these counts.
      *
      * @param grid

@@ -10,7 +10,7 @@ package code;
 public class CountBinarySubstrings {
 
     /**
-     * First, count the number of 1 or 0 grouped consecutively.
+     * First, neighborCount the number of 1 or 0 grouped consecutively.
      *
      * For example "0110001111" will be [1, 2, 3, 4].
      *

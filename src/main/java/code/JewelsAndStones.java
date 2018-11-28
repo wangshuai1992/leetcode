@@ -15,16 +15,16 @@ public class JewelsAndStones {
     /**
     public int numJewelsInStones(String J, String S) {
         char[] js = J.toCharArray();
-        int count = 0;
+        int neighborCount = 0;
         for (char j : js) {
             int index = 0;
             int temp;
             while ((temp = S.indexOf(j, index)) > -1) {
-                count++;
+                neighborCount++;
                 index = ++temp;
             }
         }
-        return count;
+        return neighborCount;
     }
      */
 

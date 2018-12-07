@@ -7,6 +7,7 @@
 |46|[Permutations](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Permutations.java)|Medium|Java||
 |51|[N-Queens](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NQueens.java)|Hard|Java||
 |52|[N-Queens II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NQueensII.java)|Hard|Java||
+|78|[Subsets](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Subsets.java)|Medium|Java||
 |94|[Binary Tree Inorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeInorderTraversal.java)|Medium|Java||
 |104|[Maximum Depth of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfBinaryTree.java)|Easy|Java||
 |121|[Best Time to Buy and Sell Stock](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStock.java)|Easy|Java||

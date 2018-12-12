@@ -7,8 +7,10 @@
 |46|[Permutations](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Permutations.java)|Medium|Java||
 |51|[N-Queens](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NQueens.java)|Hard|Java||
 |52|[N-Queens II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NQueensII.java)|Hard|Java||
+|62|[Unique Paths](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePaths.java)|Medium|Java||
 |78|[Subsets](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Subsets.java)|Medium|Java||
 |94|[Binary Tree Inorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeInorderTraversal.java)|Medium|Java||
+|102|[Binary Tree Level Order Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeLevelOrderTraversal.java)|Medium|Java||
 |104|[Maximum Depth of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfBinaryTree.java)|Easy|Java||
 |121|[Best Time to Buy and Sell Stock](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStock.java)|Easy|Java||
 |122|[Best Time to Buy and Sell Stock II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockII.java)|Easy|Java||
@@ -28,7 +30,10 @@
 |260|[Single Number III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumberIII.java)|Medium|Java||
 |260|[Beautiful Arrangement](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BeautifulArrangement.java)|Medium|Java||
 |283|[Move Zeroes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MoveZeroes.java)|Easy|Java||
+|287|[Find the Duplicate Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindTheDuplicateNumber.java)|Medium|Java||
 |292|[Nim Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NimGame.java)|Easy|Java||
+|312|[Burst Balloons](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BurstBalloons.java)|Hard|Java||
+|337|[House Robber III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HouseRobberIII.java)|Medium|Java||
 |338|[Counting Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CountingBits.java)|Medium|Java||
 |344|[Reverse String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseString.java)|Easy|Java||
 |347|[Top K Frequent Elements](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TopKFrequentElements.java)|Medium|Java||
@@ -63,6 +68,7 @@
 |537|[Complex Number Multiplication](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ComplexNumberMultiplication.java)|Medium|Java||
 |538|[Convert BST to Greater Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConvertBSTToGreaterTree.java)|Easy|Java||
 |540|[Single Element in a Sorted Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleElementInASortedArray.java)|Medium|Java||
+|543|[Diameter of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DiameterOfBinaryTree.java)|Easy|Java||
 |547|[Friend Circles](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FriendCircles.java)|Medium|Java||
 |553|[Optimal Division](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/OptimalDivision.java)|Medium|Java||
 |557|[Reverse Words in a String III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseWordsInAStringIII.java)|Easy|Java||

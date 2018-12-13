@@ -5,6 +5,7 @@
 |13|[Roman to Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RomanToInteger.java)|Easy|Java||
 |22|[Generate Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GenerateParentheses.java)|Medium|Java||
 |46|[Permutations](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Permutations.java)|Medium|Java||
+|48|[Rotate Image](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RotateImage.java)|Medium|Java||
 |51|[N-Queens](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NQueens.java)|Hard|Java||
 |52|[N-Queens II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NQueensII.java)|Hard|Java||
 |62|[Unique Paths](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePaths.java)|Medium|Java||

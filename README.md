@@ -3,6 +3,7 @@
 | Squence | Problem       | Level  | Language  | Tutorial|
 |:-------:|:--------------|:------:|:---------:|:-------------:|
 |13|[Roman to Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RomanToInteger.java)|Easy|Java||
+|21|[Merge Two Sorted Lists](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoSortedLists.java)|Easy|Java||
 |22|[Generate Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GenerateParentheses.java)|Medium|Java||
 |39|[Combination Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CombinationSum.java)|Medium|Java||
 |46|[Permutations](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Permutations.java)|Medium|Java||
@@ -44,6 +45,7 @@
 |406|[Queue Reconstruction by Height](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/QueueReconstructionByHeight.java)|Medium|Java||
 |412|[Fizz Buzz](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FizzBuzz.java)|Easy|Java||
 |413|[Arithmetic Slices](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ArithmeticSlices.java)|Medium|Java||
+|416|[Partition Equal Subset Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PartitionEqualSubsetSum.java)|Medium|Java||
 |419|[Battleships in a Board](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BattleshipsInABoard.java)|Medium|Java||
 |421|[Maximum XOR of Two Numbers in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumXOROfTwoNumbersInAnArray.java)|Medium|Java||
 |427|[Construct Quad Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructQuadTree.java)|Easy|Java||
@@ -57,6 +59,7 @@
 |463|[Island Perimeter](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/IslandPerimeter.java)|Easy|Java||
 |476|[Number Complement](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberComplement.java)|Easy|Java||
 |485|[Max Consecutive Ones](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaxConsecutiveOnes.java)|Easy|Java||
+|494|[Target Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TargetSum.java)|Medium|Java||
 |495|[Teemo Attacking](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TeemoAttacking.java)|Medium|Java||
 |496|[Next Greater Element I](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NextGreaterElementI.java)|Easy|Java||
 |500|[Keyboard Row](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KeyboardRow.java)|Easy|Java||

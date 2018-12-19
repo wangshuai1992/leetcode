@@ -176,3 +176,9 @@
 |946|[Validate Stack Sequences](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidateStackSequences.java)|Medium|Java||
 |950|[Reveal Cards In Increasing Order](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RevealCardsInIncreasingOrder.java)|Medium|Java||
 |951|[Flip Equivalent Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlipEquivalentBinaryTrees.java)|Medium|Java||
+|64|[Minimum Path Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumPathSum.java)|Medium|Java||
+|96|[Unique Binary Search Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueBinarySearchTrees.java)|Medium|Java||
+|621|[Task Scheduler](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TaskScheduler.java)|Medium|Java||
+|49|[Group Anagrams](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GroupAnagrams.java)|Medium|Java||
+|309|[Best Time to Buy and Sell Stock with Cooldown](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockWithCooldown.java)|Medium|Java||
+|394|[Decode String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DecodeString.java)|Medium|Java||

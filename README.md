@@ -2,17 +2,24 @@
 
 | Squence | Problem       | Level  | Language  | Tutorial|
 |:-------:|:--------------|:------:|:---------:|:-------------:|
+|11|[Container With Most Water](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainerWithMostWater.java)|Medium|Java||
 |13|[Roman to Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RomanToInteger.java)|Easy|Java||
 |21|[Merge Two Sorted Lists](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoSortedLists.java)|Easy|Java||
 |22|[Generate Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GenerateParentheses.java)|Medium|Java||
 |39|[Combination Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CombinationSum.java)|Medium|Java||
 |46|[Permutations](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Permutations.java)|Medium|Java||
 |48|[Rotate Image](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RotateImage.java)|Medium|Java||
+|49|[Group Anagrams](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GroupAnagrams.java)|Medium|Java||
 |51|[N-Queens](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NQueens.java)|Hard|Java||
 |52|[N-Queens II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NQueensII.java)|Hard|Java||
+|53|[Maximum Subarray](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumSubarray.java)|Easy|Java||
 |62|[Unique Paths](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePaths.java)|Medium|Java||
+|64|[Minimum Path Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumPathSum.java)|Medium|Java||
+|70|[Climbing Stairs](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ClimbingStairs.java)|Easy|Java||
 |78|[Subsets](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Subsets.java)|Medium|Java||
 |94|[Binary Tree Inorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeInorderTraversal.java)|Medium|Java||
+|96|[Unique Binary Search Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueBinarySearchTrees.java)|Medium|Java||
+|101|[Symmetric Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SymmetricTree.java)|Easy|Java||
 |102|[Binary Tree Level Order Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeLevelOrderTraversal.java)|Medium|Java||
 |104|[Maximum Depth of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfBinaryTree.java)|Easy|Java||
 |121|[Best Time to Buy and Sell Stock](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStock.java)|Easy|Java||
@@ -35,6 +42,7 @@
 |283|[Move Zeroes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MoveZeroes.java)|Easy|Java||
 |287|[Find the Duplicate Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindTheDuplicateNumber.java)|Medium|Java||
 |292|[Nim Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NimGame.java)|Easy|Java||
+|309|[Best Time to Buy and Sell Stock with Cooldown](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockWithCooldown.java)|Medium|Java||
 |312|[Burst Balloons](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BurstBalloons.java)|Hard|Java||
 |337|[House Robber III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HouseRobberIII.java)|Medium|Java||
 |338|[Counting Bits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CountingBits.java)|Medium|Java||
@@ -42,6 +50,7 @@
 |347|[Top K Frequent Elements](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TopKFrequentElements.java)|Medium|Java||
 |371|[Sum of Two Integers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SumOfTwoIntegers.java)|Easy|Java||
 |389|[Find the Difference](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindTheDifference.java)|Easy|Java||
+|394|[Decode String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DecodeString.java)|Medium|Java||
 |406|[Queue Reconstruction by Height](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/QueueReconstructionByHeight.java)|Medium|Java||
 |412|[Fizz Buzz](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FizzBuzz.java)|Easy|Java||
 |413|[Arithmetic Slices](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ArithmeticSlices.java)|Medium|Java||
@@ -50,6 +59,7 @@
 |421|[Maximum XOR of Two Numbers in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumXOROfTwoNumbersInAnArray.java)|Medium|Java||
 |427|[Construct Quad Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructQuadTree.java)|Easy|Java||
 |429|[N-ary Tree Level Order Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreeLevelOrderTraversal.java)|Easy|Java||
+|437|[Path Sum III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PathSumIII.java)|Easy|Java||
 |442|[Find All Duplicates in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllDuplicatesInAnArray.java)|Medium|Java||
 |448|[Find All Numbers Disappeared in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllNumbersDisappearedInAnArray.java)|Easy|Java||
 |451|[Sort Characters By Frequency](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortCharactersByFrequency.java)|Medium|Java||
@@ -78,6 +88,7 @@
 |553|[Optimal Division](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/OptimalDivision.java)|Medium|Java||
 |557|[Reverse Words in a String III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseWordsInAStringIII.java)|Easy|Java||
 |559|[Maximum Depth of N-ary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfNaryTree.java)|Easy|Java||
+|560|[Subarray Sum Equals K](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SubarraySumEqualsK.java)|Medium|Java||
 |561|[ArrayPartitionI](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ArrayPartitionI.java)|Easy|Java||
 |561|[Unique Morse Code Words](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueMorseCodeWords.java)|Easy|Java||
 |565|[Array Nesting](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ArrayNesting.java)|Medium|Java||
@@ -88,6 +99,7 @@
 |606|[ConstructStringFromBinaryTree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructStringFromBinaryTree.java)|Easy|Java||
 |609|[Find Duplicate File in System](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindDuplicateFileInSystem.java)|Medium|Java||
 |617|[Merge Two Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoBinaryTrees.java)|Easy|Java||
+|621|[Task Scheduler](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TaskScheduler.java)|Medium|Java||
 |626|[Exchange Seats](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ExchangeSeats.java)|Medium|Java||
 |637|[Average of Levels in Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AverageOfLevelsInBinaryTree.java)|Easy|Java||
 |647|[Palindromic Substrings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PalindromicSubstrings.java)|Medium|Java||
@@ -176,9 +188,3 @@
 |946|[Validate Stack Sequences](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidateStackSequences.java)|Medium|Java||
 |950|[Reveal Cards In Increasing Order](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RevealCardsInIncreasingOrder.java)|Medium|Java||
 |951|[Flip Equivalent Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlipEquivalentBinaryTrees.java)|Medium|Java||
-|64|[Minimum Path Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumPathSum.java)|Medium|Java||
-|96|[Unique Binary Search Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueBinarySearchTrees.java)|Medium|Java||
-|621|[Task Scheduler](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TaskScheduler.java)|Medium|Java||
-|49|[Group Anagrams](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GroupAnagrams.java)|Medium|Java||
-|309|[Best Time to Buy and Sell Stock with Cooldown](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockWithCooldown.java)|Medium|Java||
-|394|[Decode String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DecodeString.java)|Medium|Java||

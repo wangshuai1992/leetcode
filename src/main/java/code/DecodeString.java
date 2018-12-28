@@ -63,31 +63,33 @@ public class DecodeString {
      */
     public String decodeString1(String s) {
         StringBuilder res = new StringBuilder();
-        Deque<Integer> countStack = new ArrayDeque<>();
         Deque<String> resStack = new ArrayDeque<>();
-        int idx = 0;
-        while (idx < s.length()) {
-            if (Character.isDigit(s.charAt(idx))) {
+        Deque<Integer> countStack = new ArrayDeque<>();
+        int index = 0;
+        while (index < s.length()) {
+            char c = s.charAt(index);
+            if(Character.isDigit(c)) {
                 int count = 0;
-                while (Character.isDigit(s.charAt(idx))) {
-                    count = 10 * count + (s.charAt(idx) - '0');
-                    idx++;
+                while (Character.isDigit(s.charAt(index))) {
+                    count = count * 10 + (s.charAt(index) - '0');
+                    index++;
                 }
                 countStack.push(count);
-            } else if (s.charAt(idx) == '[') {
+            } else if (c == '[') {
                 resStack.push(res.toString());
                 res = new StringBuilder();
-                idx++;
-            } else if (s.charAt(idx) == ']') {
+                index++;
+            } else if (c == ']') {
                 StringBuilder temp = new StringBuilder(resStack.pop());
-                int repeatTimes = countStack.pop();
-                for (int i = 0; i < repeatTimes; i++) {
+                int count = countStack.pop();
+                for(int i = 0; i < count; i++) {
                     temp.append(res);
                 }
                 res = temp;
-                idx++;
+                index++;
             } else {
-                res.append(s.charAt(idx++));
+                res.append(c);
+                index++;
             }
         }
         return res.toString();

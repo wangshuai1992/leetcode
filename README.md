@@ -16,6 +16,7 @@
 |62|[Unique Paths](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePaths.java)|Medium|Java||
 |64|[Minimum Path Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumPathSum.java)|Medium|Java||
 |70|[Climbing Stairs](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ClimbingStairs.java)|Easy|Java||
+|75|[Sort Colors](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortColors.java)|Medium|Java||
 |78|[Subsets](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Subsets.java)|Medium|Java||
 |94|[Binary Tree Inorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeInorderTraversal.java)|Medium|Java||
 |96|[Unique Binary Search Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueBinarySearchTrees.java)|Medium|Java||
@@ -93,6 +94,7 @@
 |561|[Unique Morse Code Words](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueMorseCodeWords.java)|Easy|Java||
 |565|[Array Nesting](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ArrayNesting.java)|Medium|Java||
 |566|[Reshape the Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReshapeTheMatrix.java)|Easy|Java||
+|572|[Subtree of Another Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SubtreeOfAnotherTree.java)|Easy|Java||
 |575|[Distribute Candies](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DistributeCandies.java)|Easy|Java||
 |589|[N-ary Tree Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreePreorderTraversal.java)|Easy|Java||
 |590|[N-ary Tree Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreePostorderTraversal.java)|Easy|Java||

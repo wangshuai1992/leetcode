@@ -2,11 +2,13 @@
 
 | Squence | Problem       | Level  | Language  | Tutorial|
 |:-------:|:--------------|:------:|:---------:|:-------------:|
+|1|[Two Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TwoSum.java)|Easy|Java||
 |11|[Container With Most Water](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainerWithMostWater.java)|Medium|Java||
 |13|[Roman to Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RomanToInteger.java)|Easy|Java||
 |21|[Merge Two Sorted Lists](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoSortedLists.java)|Easy|Java||
 |22|[Generate Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GenerateParentheses.java)|Medium|Java||
 |39|[Combination Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CombinationSum.java)|Medium|Java||
+|42|[Trapping Rain Water](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TrappingRainWater.java)|Hard|Java||
 |46|[Permutations](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Permutations.java)|Medium|Java||
 |48|[Rotate Image](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RotateImage.java)|Medium|Java||
 |49|[Group Anagrams](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GroupAnagrams.java)|Medium|Java||
@@ -23,14 +25,17 @@
 |101|[Symmetric Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SymmetricTree.java)|Easy|Java||
 |102|[Binary Tree Level Order Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeLevelOrderTraversal.java)|Medium|Java||
 |104|[Maximum Depth of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfBinaryTree.java)|Easy|Java||
+|114|[Flatten Binary Tree to Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlattenBinaryTreeToLinkedList.java)|Medium|Java||
 |121|[Best Time to Buy and Sell Stock](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStock.java)|Easy|Java||
 |122|[Best Time to Buy and Sell Stock II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockII.java)|Easy|Java||
 |136|[Single Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumber.java)|Easy|Java||
 |144|[Binary Tree Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePreorderTraversal.java)|Medium|Java||
 |145|[Binary Tree Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePostorderTraversal.java)|Hard|Java||
+|167|[Two Sum II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TwoSumII.java)|Easy|Java||
 |169|[Majority Element](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MajorityElement.java)|Easy|Java||
 |171|[Excel Sheet Column Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ExcelSheetColumnNumber.java)|Easy|Java||
 |182|[Duplicate Emails](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DuplicateEmails.java)|Easy|Java||
+|198|[House Robber](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HouseRobber.java)|Easy|Java||
 |206|[Reverse Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseLinkedList.java)|Easy|Java||
 |215|[Kth Largest Element in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KthLargestElementInAnArray.java)|Medium|Java||
 |217|[Contains Duplicate](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainsDuplicate.java)|Easy|Java||

@@ -28,6 +28,7 @@
 |114|[Flatten Binary Tree to Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlattenBinaryTreeToLinkedList.java)|Medium|Java||
 |121|[Best Time to Buy and Sell Stock](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStock.java)|Easy|Java||
 |122|[Best Time to Buy and Sell Stock II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockII.java)|Easy|Java||
+|128|[Longest Consecutive Sequence](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestConsecutiveSequence.java)|Hard|Java||
 |136|[Single Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumber.java)|Easy|Java||
 |144|[Binary Tree Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePreorderTraversal.java)|Medium|Java||
 |145|[Binary Tree Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePostorderTraversal.java)|Hard|Java||

@@ -5,6 +5,7 @@
 |1|[Two Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TwoSum.java)|Easy|Java||
 |11|[Container With Most Water](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainerWithMostWater.java)|Medium|Java||
 |13|[Roman to Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RomanToInteger.java)|Easy|Java||
+|17|[Letter Combinations of a Phone Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LetterCombinationsOfAPhoneNumber.java)|Medium|Java||
 |21|[Merge Two Sorted Lists](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoSortedLists.java)|Easy|Java||
 |22|[Generate Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GenerateParentheses.java)|Medium|Java||
 |39|[Combination Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CombinationSum.java)|Medium|Java||
@@ -18,6 +19,7 @@
 |62|[Unique Paths](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePaths.java)|Medium|Java||
 |64|[Minimum Path Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumPathSum.java)|Medium|Java||
 |70|[Climbing Stairs](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ClimbingStairs.java)|Easy|Java||
+|74|[Search a 2D Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SearchA2DMatrix.java)|Medium|Java||
 |75|[Sort Colors](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortColors.java)|Medium|Java||
 |78|[Subsets](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Subsets.java)|Medium|Java||
 |94|[Binary Tree Inorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeInorderTraversal.java)|Medium|Java||
@@ -37,15 +39,18 @@
 |171|[Excel Sheet Column Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ExcelSheetColumnNumber.java)|Easy|Java||
 |182|[Duplicate Emails](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DuplicateEmails.java)|Easy|Java||
 |198|[House Robber](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HouseRobber.java)|Easy|Java||
+|200|[Number of Islands](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberOfIslands.java)|Medium|Java||
 |206|[Reverse Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseLinkedList.java)|Easy|Java||
 |215|[Kth Largest Element in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KthLargestElementInAnArray.java)|Medium|Java||
 |217|[Contains Duplicate](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainsDuplicate.java)|Easy|Java||
 |226|[Invert Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/InvertBinaryTree.java)|Easy|Java||
 |238|[Product of Array Except Self](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ProductOfArrayExceptSelf.java)|Medium|Java||
+|240|[Search a 2D Matrix II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SearchA2DMatrixII.java)|Medium|Java||
 |242|[Valid Anagram](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidAnagram.java)|Easy|Java||
 |258|[Add Digits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AddDigits.java)|Easy|Java||
 |260|[Single Number III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumberIII.java)|Medium|Java||
 |260|[Beautiful Arrangement](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BeautifulArrangement.java)|Medium|Java||
+|279|[Perfect Squares](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PerfectSquares.java)|Medium|Java||
 |283|[Move Zeroes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MoveZeroes.java)|Easy|Java||
 |287|[Find the Duplicate Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindTheDuplicateNumber.java)|Medium|Java||
 |292|[Nim Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NimGame.java)|Easy|Java||

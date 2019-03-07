@@ -11,17 +11,17 @@ public class IslandPerimeter {
 
     public int islandPerimeter(int[][] grid) {
         int perimeter = 0;
-        for(int i=0; i<grid.length; i++) {
-            for(int j=0; j<grid[i].length; j++) {
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
                 int cell = grid[i][j];
-                if(cell == 0) {
+                if (cell == 0) {
                     continue;
                 }
                 perimeter += 4;
-                if(i+1 < grid.length && grid[i+1][j] == 1) {
+                if (i + 1 < grid.length && grid[i + 1][j] == 1) {
                     perimeter -= 2;
                 }
-                if(j+1 < grid[i].length && grid[i][j+1] == 1) {
+                if (j + 1 < grid[i].length && grid[i][j + 1] == 1) {
                     perimeter -= 2;
                 }
             }

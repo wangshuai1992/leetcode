@@ -27,6 +27,7 @@
 |101|[Symmetric Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SymmetricTree.java)|Easy|Java||
 |102|[Binary Tree Level Order Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeLevelOrderTraversal.java)|Medium|Java||
 |104|[Maximum Depth of Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumDepthOfBinaryTree.java)|Easy|Java||
+|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)|Medium|Java||
 |114|[Flatten Binary Tree to Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlattenBinaryTreeToLinkedList.java)|Medium|Java||
 |121|[Best Time to Buy and Sell Stock](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStock.java)|Easy|Java||
 |122|[Best Time to Buy and Sell Stock II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockII.java)|Easy|Java||
@@ -54,6 +55,7 @@
 |283|[Move Zeroes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MoveZeroes.java)|Easy|Java||
 |287|[Find the Duplicate Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindTheDuplicateNumber.java)|Medium|Java||
 |292|[Nim Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NimGame.java)|Easy|Java||
+|300|[Longest Increasing Subsequence](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestIncreasingSubsequence.java)|Medium|Java||
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockWithCooldown.java)|Medium|Java||
 |312|[Burst Balloons](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BurstBalloons.java)|Hard|Java||
 |337|[House Robber III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HouseRobberIII.java)|Medium|Java||

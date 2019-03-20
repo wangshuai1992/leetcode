@@ -55,41 +55,46 @@ public class ConstructBinaryTreeFromPreorderAndPostorderTraversal {
      * @param post
      * @return
      */
-    int preStart;
-
     public TreeNode constructFromPrePost1(int[] pre, int[] post) {
-        // corner cases to add
-        preStart = 0;
-        int n = post.length;
-        return constructFromPrePostFrom(pre, post, 0, n - 1);
+        return constructFromPrePost(pre, 0, pre.length - 1, post, 0, pre.length - 1);
     }
 
-    private TreeNode constructFromPrePostFrom(int[] pre, int[] post, int postStart, int postEnd) {
-
-        if (postStart > postEnd) {
+    private TreeNode constructFromPrePost(int[] pre, int preStart, int preEnd, int[] post, int postStart, int postEnd) {
+        // Base cases.
+        if (preStart > preEnd) {
             return null;
         }
-
-        int rootVal = post[postEnd];
-        TreeNode root = new TreeNode(rootVal);
-        preStart++;
-
-        if (preStart == pre.length || postStart == postEnd) {
-            return root;
+        if (preStart == preEnd) {
+            return new TreeNode(pre[preStart]);
         }
 
-        int leftVal = pre[preStart];
-        int lri = postStart;
-        for (; lri <= postEnd; lri++) {
-            if (post[lri] == leftVal) {
-                break;
+        // Build root.
+        TreeNode root = new TreeNode(pre[preStart]);
+
+        // Locate left subtree.
+        int leftSubRootInPre = preStart + 1;
+        int leftSubRootInPost = findLeftSubRootInPost(pre[leftSubRootInPre], post, postStart, postEnd);
+        int leftSubEndInPre = leftSubRootInPre + (leftSubRootInPost - postStart);
+
+        // Divide.
+        TreeNode leftSubRoot = constructFromPrePost(pre, leftSubRootInPre, leftSubEndInPre,
+                post, postStart, leftSubRootInPost);
+        TreeNode rightSubRoot = constructFromPrePost(pre, leftSubEndInPre + 1, preEnd,
+                post, leftSubRootInPost + 1, postEnd - 1);
+
+        // Conquer.
+        root.left = leftSubRoot;
+        root.right = rightSubRoot;
+        return root;
+    }
+
+    private int findLeftSubRootInPost(int leftSubRootVal, int[] post, int postStart, int postEnd) {
+        for (int i = postStart; i <= postEnd; i++) {
+            if (post[i] == leftSubRootVal) {
+                return i;
             }
         }
-
-        root.left = constructFromPrePostFrom(pre, post, postStart, lri);
-        root.right = constructFromPrePostFrom(pre, post, lri + 1, postEnd - 1);
-
-        return root;
+        throw new IllegalArgumentException();
     }
 
     private static class TreeNode {

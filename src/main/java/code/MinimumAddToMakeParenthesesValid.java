@@ -1,7 +1,7 @@
 package code;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 
 /**
  * https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
@@ -16,12 +16,12 @@ public class MinimumAddToMakeParenthesesValid {
         int result = 0;
 
         char[] chars = s.toCharArray();
-        Deque<Character> deque = new LinkedList<>();
+        Deque<Character> deque = new ArrayDeque<>();
         for (char c : chars) {
             deque.addLast(c);
         }
 
-        Deque<Character> temp = new LinkedList<>();
+        Deque<Character> temp = new ArrayDeque<>();
         //从尾部往前就近匹配
         while (!deque.isEmpty()) {
             char c = deque.removeLast();

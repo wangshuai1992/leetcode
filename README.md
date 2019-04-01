@@ -6,6 +6,7 @@
 |11|[Container With Most Water](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainerWithMostWater.java)|Medium|Java||
 |13|[Roman to Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RomanToInteger.java)|Easy|Java||
 |17|[Letter Combinations of a Phone Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LetterCombinationsOfAPhoneNumber.java)|Medium|Java||
+|20|[Valid Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidParentheses.java)|Easy|Java||
 |21|[Merge Two Sorted Lists](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoSortedLists.java)|Easy|Java||
 |22|[Generate Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GenerateParentheses.java)|Medium|Java||
 |39|[Combination Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CombinationSum.java)|Medium|Java||
@@ -19,6 +20,7 @@
 |62|[Unique Paths](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePaths.java)|Medium|Java||
 |64|[Minimum Path Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumPathSum.java)|Medium|Java||
 |70|[Climbing Stairs](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ClimbingStairs.java)|Easy|Java||
+|72|[Edit Distance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EditDistance).java)|Hard|Java||
 |74|[Search a 2D Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SearchA2DMatrix.java)|Medium|Java||
 |75|[Sort Colors](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortColors.java)|Medium|Java||
 |78|[Subsets](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Subsets.java)|Medium|Java||
@@ -42,10 +44,13 @@
 |198|[House Robber](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HouseRobber.java)|Easy|Java||
 |200|[Number of Islands](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberOfIslands.java)|Medium|Java||
 |206|[Reverse Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseLinkedList.java)|Easy|Java||
+|207|[Course Schedule](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CourseSchedule).java)|Medium|Java||
+|208|[Implement Trie (Prefix Tree)](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ImplementTriePrefixTree).java)|Medium|Java||
 |215|[Kth Largest Element in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KthLargestElementInAnArray.java)|Medium|Java||
 |217|[Contains Duplicate](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainsDuplicate.java)|Easy|Java||
 |226|[Invert Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/InvertBinaryTree.java)|Easy|Java||
 |238|[Product of Array Except Self](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ProductOfArrayExceptSelf.java)|Medium|Java||
+|239|[Sliding Window Maximum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SlidingWindowMaximum.java)|Hard|Java||
 |240|[Search a 2D Matrix II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SearchA2DMatrixII.java)|Medium|Java||
 |242|[Valid Anagram](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidAnagram.java)|Easy|Java||
 |258|[Add Digits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AddDigits.java)|Easy|Java||
@@ -55,7 +60,9 @@
 |283|[Move Zeroes](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MoveZeroes.java)|Easy|Java||
 |287|[Find the Duplicate Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindTheDuplicateNumber.java)|Medium|Java||
 |292|[Nim Game](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NimGame.java)|Easy|Java||
+|297|[Serialize and Deserialize Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SerializeAndDeserializeBinaryTree.java)|Hard|Java||
 |300|[Longest Increasing Subsequence](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestIncreasingSubsequence.java)|Medium|Java||
+|301|[Remove Invalid Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RemoveInvalidParentheses.java)|Hard|Java||
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockWithCooldown.java)|Medium|Java||
 |312|[Burst Balloons](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BurstBalloons.java)|Hard|Java||
 |337|[House Robber III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HouseRobberIII.java)|Medium|Java||
@@ -74,6 +81,7 @@
 |427|[Construct Quad Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructQuadTree.java)|Easy|Java||
 |429|[N-ary Tree Level Order Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreeLevelOrderTraversal.java)|Easy|Java||
 |437|[Path Sum III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PathSumIII.java)|Easy|Java||
+|438|[Find All Anagrams in a String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllAnagramsInAString).java)|Easy|Java||
 |442|[Find All Duplicates in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllDuplicatesInAnArray.java)|Medium|Java||
 |448|[Find All Numbers Disappeared in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllNumbersDisappearedInAnArray.java)|Easy|Java||
 |451|[Sort Characters By Frequency](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortCharactersByFrequency.java)|Medium|Java||

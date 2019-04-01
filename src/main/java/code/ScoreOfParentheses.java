@@ -14,7 +14,7 @@ public class ScoreOfParentheses {
 
     /**
      * Count Cores - O(n)
-     * <p>
+     *
      * keep track of balance, every core values 1 << balance
      *
      * @param str

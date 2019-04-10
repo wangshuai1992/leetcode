@@ -116,7 +116,6 @@ public class FindAllAnagramsInAString {
         //from this point on we are going to be moving start AND end on each iteration, to shift the window
         //along the string
         while (end < s.length()) {
-
             //Temp represents the current first character of the window. The character that is
             //going to be "left behind" as the window moves.
             temp = s.charAt(start);
@@ -147,20 +146,68 @@ public class FindAllAnagramsInAString {
 
             //If diff has reached zero, that means for the last p.length() iterations, diff was decremented and
             //NOT decremented, which means every one of those characters was in the anagram, so it must be an anagram
-
             //Note: If many windows in a row find anagrams, then each iteration will have diff incremented then decremented again
             if (diff == 0) {
                 result.add(start);
             }
-
             //Increment for next iteration
             end++;
+        }
+        return result;
+    }
 
+    /**
+     * @param s
+     * @param p
+     * @return
+     */
+    public List<Integer> findAnagrams2(String s, String p) {
+        List<Integer> result = new ArrayList<>();
+        if (s.length() == 0 || p.length() == 0 || s.length() < p.length()) {
+            return result;
         }
 
+        int[] chars = new int[26];
+        for (char c : p.toCharArray()) {
+            chars[c - 'a']++;
+        }
+
+        int findLen = p.length();
+        int start = 0;
+        int end = 0;
+        int diff = p.length();
+
+        char temp;
+
+        for (end = 0; end < findLen; end++) {
+            temp = s.charAt(end);
+            if (chars[temp - 'a']-- >= 1) {
+                diff--;
+            }
+        }
+
+        if (diff == 0) {
+            result.add(0);
+        }
+
+        while (end < s.length()) {
+            temp = s.charAt(start);
+            if (chars[temp - 'a']++ >= 0) {
+                diff++;
+            }
+            start++;
+
+            temp = s.charAt(end);
+            if (chars[temp - 'a']-- >= 1) {
+                diff--;
+            }
+            end++;
+
+            if (diff == 0) {
+                result.add(start);
+            }
+        }
         return result;
-
-
     }
 
 }

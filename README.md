@@ -20,7 +20,7 @@
 |62|[Unique Paths](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePaths.java)|Medium|Java||
 |64|[Minimum Path Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumPathSum.java)|Medium|Java||
 |70|[Climbing Stairs](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ClimbingStairs.java)|Easy|Java||
-|72|[Edit Distance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EditDistance).java)|Hard|Java||
+|72|[Edit Distance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EditDistance.java)|Hard|Java||
 |74|[Search a 2D Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SearchA2DMatrix.java)|Medium|Java||
 |75|[Sort Colors](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortColors.java)|Medium|Java||
 |78|[Subsets](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Subsets.java)|Medium|Java||
@@ -44,8 +44,8 @@
 |198|[House Robber](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HouseRobber.java)|Easy|Java||
 |200|[Number of Islands](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberOfIslands.java)|Medium|Java||
 |206|[Reverse Linked List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseLinkedList.java)|Easy|Java||
-|207|[Course Schedule](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CourseSchedule).java)|Medium|Java||
-|208|[Implement Trie (Prefix Tree)](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ImplementTriePrefixTree).java)|Medium|Java||
+|207|[Course Schedule](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CourseSchedule.java)|Medium|Java||
+|208|[Implement Trie (Prefix Tree)](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ImplementTriePrefixTree.java)|Medium|Java||
 |215|[Kth Largest Element in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/KthLargestElementInAnArray.java)|Medium|Java||
 |217|[Contains Duplicate](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainsDuplicate.java)|Easy|Java||
 |226|[Invert Binary Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/InvertBinaryTree.java)|Easy|Java||
@@ -81,7 +81,7 @@
 |427|[Construct Quad Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructQuadTree.java)|Easy|Java||
 |429|[N-ary Tree Level Order Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreeLevelOrderTraversal.java)|Easy|Java||
 |437|[Path Sum III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/PathSumIII.java)|Easy|Java||
-|438|[Find All Anagrams in a String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllAnagramsInAString).java)|Easy|Java||
+|438|[Find All Anagrams in a String](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllAnagramsInAString.java)|Easy|Java||
 |442|[Find All Duplicates in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllDuplicatesInAnArray.java)|Medium|Java||
 |448|[Find All Numbers Disappeared in an Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindAllNumbersDisappearedInAnArray.java)|Easy|Java||
 |451|[Sort Characters By Frequency](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortCharactersByFrequency.java)|Medium|Java||

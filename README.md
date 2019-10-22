@@ -36,10 +36,12 @@
 |122|[Best Time to Buy and Sell Stock II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockII.java)|Easy|Java||
 |128|[Longest Consecutive Sequence](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestConsecutiveSequence.java)|Hard|Java||
 |136|[Single Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumber.java)|Easy|Java||
+|139|[Word Break](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/WordBreak.java)|Medium|Java||
 |141|[Linked List Cycle](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LinkedListCycle.java)|Easy|Java||
 |142|[Linked List Cycle II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LinkedListCycleII.java)|Medium|Java||
 |144|[Binary Tree Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePreorderTraversal.java)|Medium|Java||
 |145|[Binary Tree Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreePostorderTraversal.java)|Hard|Java||
+|148|[Sort List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortList.java)|Medium|Java||
 |155|[Min Stack](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinStack.java)|Easy|Java||
 |167|[Two Sum II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TwoSumII.java)|Easy|Java||
 |169|[Majority Element](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MajorityElement.java)|Easy|Java||
@@ -123,6 +125,7 @@
 |566|[Reshape the Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReshapeTheMatrix.java)|Easy|Java||
 |572|[Subtree of Another Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SubtreeOfAnotherTree.java)|Easy|Java||
 |575|[Distribute Candies](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DistributeCandies.java)|Easy|Java||
+|583|[Delete Operation for Two Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DeleteOperationForTwoStrings.java)|Medium|Java||
 |589|[N-ary Tree Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreePreorderTraversal.java)|Easy|Java||
 |590|[N-ary Tree Postorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NaryTreePostorderTraversal.java)|Easy|Java||
 |606|[ConstructStringFromBinaryTree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructStringFromBinaryTree.java)|Easy|Java||
@@ -217,3 +220,10 @@
 |946|[Validate Stack Sequences](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidateStackSequences.java)|Medium|Java||
 |950|[Reveal Cards In Increasing Order](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RevealCardsInIncreasingOrder.java)|Medium|Java||
 |951|[Flip Equivalent Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlipEquivalentBinaryTrees.java)|Medium|Java||
+|1008|[Construct Binary Search Tree from Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructBinarySearchTreeFromPreorderTraversal.java)|Medium|Java||
+|1021|[Remove Outermost Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RemoveOutermostParentheses.java)|Easy|Java||
+|1038|[Binary Search Tree to Greater Sum Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinarySearchTreeToGreaterSumTree.java)|Medium|Java||
+|1079|[Letter Tile Possibilities](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LetterTilePossibilities.java)|Medium|Java||
+|1108|[Defanging an IP Address](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DefangingAnIPAddress.java)|Easy|Java||
+|1207|[Unique Number of Occurrences](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueNumberOfOccurrences.java)|Easy|Java||
+|1221|[Split a String in Balanced Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SplitAStringInBalancedStrings.java)|Easy|Java||

@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class LongestIncreasingSubsequence {
 
     /**
-     * Recursive / O(2^n) time, O(n) time
+     * Recursive / O(2^n) time, O(n) space
      *
      * @param nums
      * @return

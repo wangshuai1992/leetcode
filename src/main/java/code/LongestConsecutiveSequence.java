@@ -77,7 +77,7 @@ public class LongestConsecutiveSequence {
     }
 
     /**
-     * HashSet and Intelligent Sequence Building / O(n) time, O(1) space
+     * HashSet and Intelligent Sequence Building / O(n) time, O(n) space
      *
      * @param nums
      * @return

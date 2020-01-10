@@ -19,6 +19,7 @@
 |53|[Maximum Subarray](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximumSubarray.java)|Easy|Java||
 |56|[Merge Intervals](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeIntervals.java)|Medium|Java||
 |62|[Unique Paths](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePaths.java)|Medium|Java||
+|63|[Unique Paths II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePathsII.java)|Medium|Java||
 |64|[Minimum Path Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumPathSum.java)|Medium|Java||
 |70|[Climbing Stairs](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ClimbingStairs.java)|Easy|Java||
 |72|[Edit Distance](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/EditDistance.java)|Hard|Java||
@@ -220,6 +221,9 @@
 |946|[Validate Stack Sequences](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidateStackSequences.java)|Medium|Java||
 |950|[Reveal Cards In Increasing Order](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RevealCardsInIncreasingOrder.java)|Medium|Java||
 |951|[Flip Equivalent Binary Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FlipEquivalentBinaryTrees.java)|Medium|Java||
+|961|[N-Repeated Element in Size 2N Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NRepeatedElementInSize2NArray.java)|Easy|Java||
+|977|[Squares of a Sorted Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SquaresOfASortedArray.java)|Easy|Java||
+|980|[Unique Paths III](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniquePathsIII.java)|Hard|Java||
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConstructBinarySearchTreeFromPreorderTraversal.java)|Medium|Java||
 |1021|[Remove Outermost Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RemoveOutermostParentheses.java)|Easy|Java||
 |1038|[Binary Search Tree to Greater Sum Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinarySearchTreeToGreaterSumTree.java)|Medium|Java||

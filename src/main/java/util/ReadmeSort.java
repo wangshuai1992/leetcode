@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * TODO
+ * readme排序
  *
  * @author wangshuai
  * @version V1.0
@@ -18,6 +18,7 @@ import java.util.Objects;
  */
 public class ReadmeSort {
 
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) throws Exception {
         StringBuilder builder;
         try (BufferedReader br = new BufferedReader(new FileReader("README.md"))) {

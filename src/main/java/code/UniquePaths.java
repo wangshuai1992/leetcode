@@ -40,7 +40,7 @@ public class UniquePaths {
     /**
      * Math / Combination
      *
-     * 总共需要移动x = (m-1) * (n-1)步，其中 y = m - 1步为向右移动，问题即转化为将y个右移操作放入x个位置的组合问题
+     * 总共需要移动x = (m-1) + (n-1)步，其中 y = m - 1步为向右移动，问题即转化为将y个右移操作放入x个位置的组合问题
      *
      * combination(x, y) = x! / ((x - y)! * y!)
      * reduce the numerator and denominator and get

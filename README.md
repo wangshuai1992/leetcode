@@ -231,3 +231,11 @@
 |1108|[Defanging an IP Address](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DefangingAnIPAddress.java)|Easy|Java||
 |1207|[Unique Number of Occurrences](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueNumberOfOccurrences.java)|Easy|Java||
 |1221|[Split a String in Balanced Strings](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SplitAStringInBalancedStrings.java)|Easy|Java||
+|1252|[Cells with Odd Values in a Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CellsWithOddValuesInAMatrix.java)|Easy|Java||
+|1281|[Subtract the Product and Sum of Digits of an Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SubtractTheProductAndSumOfDigitsOfAnInteger.java)|Easy|Java||
+|1290|[Convert Binary Number in a Linked List to Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ConvertBinaryNumberInALinkedListToInteger.java)|Easy|Java||
+|1290|[Minimum Time Visiting All Points](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MinimumTimeVisitingAllPoints.java)|Easy|Java||
+|1295|[Find Numbers with Even Number of Digits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindNumbersWithEvenNumberOfDigits.java)|Easy|Java||
+|1295|[Group the People Given the Group Size They Belong To](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)|Medium|Java||
+|1302|[Deepest Leaves Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DeepestLeavesSum.java)|Medium|Java||
+|1309|[Decrypt String from Alphabet to Integer Mapping](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DecryptStringFromAlphabetToIntegerMapping.java)|Easy|Java||

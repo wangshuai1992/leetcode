@@ -238,4 +238,7 @@
 |1295|[Find Numbers with Even Number of Digits](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindNumbersWithEvenNumberOfDigits.java)|Easy|Java||
 |1295|[Group the People Given the Group Size They Belong To](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java)|Medium|Java||
 |1302|[Deepest Leaves Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DeepestLeavesSum.java)|Medium|Java||
+|1304|[Find N Unique Integers Sum up to Zero](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindNUniqueIntegersSumUpToZero.java)|Easy|Java||
+|1305|[All Elements in Two Binary Search Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AllElementsInTwoBinarySearchTrees.java)|Medium|Java||
 |1309|[Decrypt String from Alphabet to Integer Mapping](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DecryptStringFromAlphabetToIntegerMapping.java)|Easy|Java||
+|1315|[Sum of Nodes with Even-Valued Grandparent](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SumOfNodesWithEvenValuedGrandparent.java)|Medium|Java||

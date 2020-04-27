@@ -1,5 +1,6 @@
 package code;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
@@ -43,7 +44,7 @@ public class BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal1(TreeNode root) {
         List<Integer> ans = new LinkedList<>();
 
-        Deque<TreeNode> stack = new LinkedList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode cur = root;
         while (cur != null || !stack.isEmpty()) {
             while (cur != null) {

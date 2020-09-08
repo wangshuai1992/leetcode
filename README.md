@@ -241,4 +241,9 @@
 |1304|[Find N Unique Integers Sum up to Zero](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindNUniqueIntegersSumUpToZero.java)|Easy|Java||
 |1305|[All Elements in Two Binary Search Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/AllElementsInTwoBinarySearchTrees.java)|Medium|Java||
 |1309|[Decrypt String from Alphabet to Integer Mapping](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DecryptStringFromAlphabetToIntegerMapping.java)|Easy|Java||
+|1313|[Decompress Run-Length Encoded List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DecompressRunLengthEncodedList.java)|Easy|Java||
 |1315|[Sum of Nodes with Even-Valued Grandparent](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SumOfNodesWithEvenValuedGrandparent.java)|Medium|Java||
+|1342|[Number of Steps to Reduce a Number to Zero](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NumberOfStepsToReduceANumberToZero.java)|Easy|Java||
+|1365|[How Many Numbers Are Smaller Than the Current Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HowManyNumbersAreSmallerThanTheCurrentNumber.java)|Easy|Java||
+|1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.java)|Medium|Java||
+|1409|[Queries on a Permutation With Key](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/QueriesOnAPermutationWithKey.java)|Medium|Java||

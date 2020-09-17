@@ -7,6 +7,9 @@
 |3|[Longest Substring Without Repeating Characters](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestSubstringWithoutRepeatingCharacters.java)|Medium|Java||
 |4|[Median of Two Sorted Arrays](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MedianOfTwoSortedArrays.java)|Hard|Java||
 |5|[Longest Palindromic Substring](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestPalindromicSubstring.java)|Medium|Java||
+|7|[Reverse Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ReverseInteger.java)|Easy|Java||
+|8|[String to Integer (atoi)](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/StringToIntegerAtoi.java)|Medium|Java||
+|8|[Regular Expression Matching](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RegularExpressionMatching.java)|Hard|Java||
 |11|[Container With Most Water](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainerWithMostWater.java)|Medium|Java||
 |13|[Roman to Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RomanToInteger.java)|Easy|Java||
 |17|[Letter Combinations of a Phone Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LetterCombinationsOfAPhoneNumber.java)|Medium|Java||

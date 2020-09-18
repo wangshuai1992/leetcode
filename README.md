@@ -12,6 +12,7 @@
 |8|[Regular Expression Matching](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RegularExpressionMatching.java)|Hard|Java||
 |11|[Container With Most Water](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ContainerWithMostWater.java)|Medium|Java||
 |13|[Roman to Integer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RomanToInteger.java)|Easy|Java||
+|14|[Longest Common Prefix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestCommonPrefix.java)|Easy|Java||
 |17|[Letter Combinations of a Phone Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LetterCombinationsOfAPhoneNumber.java)|Medium|Java||
 |20|[Valid Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidParentheses.java)|Easy|Java||
 |21|[Merge Two Sorted Lists](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoSortedLists.java)|Easy|Java||

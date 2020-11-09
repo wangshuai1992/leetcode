@@ -15,9 +15,12 @@
 |14|[Longest Common Prefix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestCommonPrefix.java)|Easy|Java||
 |15|[3Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ThreeSum.java)|Medium|Java||
 |17|[Letter Combinations of a Phone Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LetterCombinationsOfAPhoneNumber.java)|Medium|Java||
+|19|[Remove Nth Node From End of List](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RemoveNthNodeFromEndOfList.java)|Medium|Java||
 |20|[Valid Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ValidParentheses.java)|Easy|Java||
 |21|[Merge Two Sorted Lists](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeTwoSortedLists.java)|Easy|Java||
 |22|[Generate Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/GenerateParentheses.java)|Medium|Java||
+|23|[Merge k Sorted Lists](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MergeKSortedLists.java)|Hard|Java||
+|26|[Remove Duplicates from Sorted Array](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/RemoveDuplicatesFromSortedArray.java)|Easy|Java||
 |39|[Combination Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CombinationSum.java)|Medium|Java||
 |42|[Trapping Rain Water](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TrappingRainWater.java)|Hard|Java||
 |46|[Permutations](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Permutations.java)|Medium|Java||

@@ -40,6 +40,8 @@
 |74|[Search a 2D Matrix](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SearchA2DMatrix.java)|Medium|Java||
 |75|[Sort Colors](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SortColors.java)|Medium|Java||
 |78|[Subsets](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Subsets.java)|Medium|Java||
+|84|[Largest Rectangle in Histogram](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LargestRectangleInHistogram.java)|Hard|Java||
+|85|[Maximal Rectangle](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/MaximalRectangle.java)|Hard|Java||
 |94|[Binary Tree Inorder Traversal](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BinaryTreeInorderTraversal.java)|Medium|Java||
 |96|[Unique Binary Search Trees](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/UniqueBinarySearchTrees.java)|Medium|Java||
 |101|[Symmetric Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SymmetricTree.java)|Easy|Java||
@@ -51,6 +53,7 @@
 |122|[Best Time to Buy and Sell Stock II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/BestTimeToBuyAndSellStockII.java)|Easy|Java||
 |128|[Longest Consecutive Sequence](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestConsecutiveSequence.java)|Hard|Java||
 |136|[Single Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/SingleNumber.java)|Easy|Java||
+|138|[Copy List with Random Pointer](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CopyListWithRandomPointer.java)|Medium|Java||
 |139|[Word Break](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/WordBreak.java)|Medium|Java||
 |141|[Linked List Cycle](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LinkedListCycle.java)|Easy|Java||
 |142|[Linked List Cycle II](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LinkedListCycleII.java)|Medium|Java||

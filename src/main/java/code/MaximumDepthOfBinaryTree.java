@@ -1,5 +1,8 @@
 package code;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
  *
@@ -9,7 +12,12 @@ package code;
  */
 public class MaximumDepthOfBinaryTree {
 
-    /* BFS
+    /**
+     * BFS
+     *
+     * @param root
+     * @return
+     */
     public int maxDepth(TreeNode root) {
         if(root == null) {
             return 0;
@@ -33,9 +41,8 @@ public class MaximumDepthOfBinaryTree {
         }
         return level;
     }
-    */
 
-    public int maxDepth(TreeNode root) {
+    public int maxDepth1(TreeNode root) {
         return root == null ? 0 : 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 

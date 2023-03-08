@@ -55,7 +55,7 @@ public class ReadmeSort {
 
         public DataLine(String line) {
             String[] arr = line.split("\\|");
-            this.squence = Integer.parseInt(arr[1]);
+            this.squence = Integer.parseInt(arr[1].trim());
             this.problem = arr[2];
             this.level = arr[3];
             this.language = arr[4];

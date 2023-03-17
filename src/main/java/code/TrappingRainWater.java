@@ -67,6 +67,7 @@ public class TrappingRainWater {
 
     /**
      * using stack / O(n) time , O(n) space
+     * 单调栈
      *
      * @param height
      * @return

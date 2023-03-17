@@ -26,6 +26,7 @@
 |28| [Implement strStr](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/ImplementStrStr.java)                                                                                        |  Easy  |Java||
 |29| [Divide Two Integers](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/DivideTwoIntegers.java)                                                                                   | Medium |Java||
 |31| [Next Permutation](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/NextPermutation.java)                                                          | Medium |Java||
+|32| [Longest Valid Parentheses](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/LongestValidParentheses.java)                                                          | Hard |Java||
 |39| [Combination Sum](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/CombinationSum.java)                                                                                          | Medium |Java||
 |42| [Trapping Rain Water](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/TrappingRainWater.java)                                                                                   |  Hard  |Java||
 |46| [Permutations](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/Permutations.java)                                                                                               | Medium |Java||
@@ -271,3 +272,4 @@
 |1365| [How Many Numbers Are Smaller Than the Current Number](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/HowManyNumbersAreSmallerThanTheCurrentNumber.java)                       |  Easy  |Java||
 |1379| [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.java) | Medium |Java||
 |1409| [Queries on a Permutation With Key](https://github.com/wangshuai1992/leetcode/blob/master/src/main/java/code/QueriesOnAPermutationWithKey.java)                                                          | Medium |Java||
+``

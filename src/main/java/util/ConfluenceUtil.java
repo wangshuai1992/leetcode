@@ -1,5 +1,6 @@
 package util;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -7,6 +8,7 @@ import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpPut;
 import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.entity.mime.HttpMultipartMode;
@@ -50,10 +52,7 @@ public class ConfluenceUtil {
                 parent.put("id", Long.valueOf(parentId));
                 data.put("ancestors", Collections.singletonList(parent));
             }
-            Map<String, String> createPageHeaders = new LinkedHashMap<>();
-            createPageHeaders.put("Authorization", "Basic " + author);
-            createPageHeaders.put("X-Atlassian-Token", "no-check");
-            createPageHeaders.put("Content-Type", "application/json;charset=utf-8");//设置httpPost的请求头中的MIME类型为json
+
             HttpClient httpClient = HttpClientBuilder.create().build();
 
             HttpPost request = new HttpPost(createPageUrl);
@@ -91,6 +90,7 @@ public class ConfluenceUtil {
             Map<String, String> importHeaders = new LinkedHashMap<>();
             importHeaders.put("Authorization", "Basic " + author);
             importHeaders.put("X-Atlassian-Token", "no-check");
+//            importHeaders.put("Content-Type", "multipart/form-data; boundary=----WebKitFormBoundary1oi1YwiBnALYWNNf; charset=utf-8");
 
             HttpEntity importRequestEntity = MultipartEntityBuilder.create()
                     .setMode(HttpMultipartMode.BROWSER_COMPATIBLE)
@@ -127,6 +127,7 @@ public class ConfluenceUtil {
             createHeaders.put("Authorization", "Basic " + author);
             createHeaders.put("Cookie", cookie);
             createHeaders.put("X-Atlassian-Token", "no-check");
+//            createHeaders.put("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
 
             HttpEntity createRequestEntity = MultipartEntityBuilder.create()
                     .setMode(HttpMultipartMode.BROWSER_COMPATIBLE)
@@ -154,6 +155,29 @@ public class ConfluenceUtil {
                     System.out.println("confluence 创建文档失败，原因:"+message.toString());
                 }
             }
+
+            //更新页面名称
+            String renamePageUrl = baseUrl+"/rest/api/content/" + pageId;
+            data = new JSONObject();
+            data.put("type", "page");
+            data.put("title", docTitle);
+            data.put("version", JSON.parse("{\"number\":3}"));
+            space = new JSONObject();
+            space.put("key", spaceKey);
+            data.put("space", space);
+
+            HttpPut putRequest = new HttpPut(renamePageUrl);
+            putRequest.setHeader("Authorization", "Basic " + author);
+            putRequest.setHeader("X-Atlassian-Token", "no-check");
+            putRequest.setHeader("Content-Type", "application/json;charset=utf-8");//设置httpPost的请求头中的MIME类型为json
+            // Set putRequest body
+            stringEntity = new StringEntity(data.toJSONString(), ContentType.APPLICATION_JSON);
+            putRequest.setEntity(stringEntity);
+            response = httpClient.execute(putRequest);
+            entity = response.getEntity();
+            String renameResponseBody = EntityUtils.toString(entity, StandardCharsets.UTF_8);
+            System.out.println("更新名称报文:"+renameResponseBody);
+
         }catch (Exception e){
 //            log.error("程序报错:{}",e);
             System.out.println("程序报错:"+e);
@@ -179,6 +203,7 @@ public class ConfluenceUtil {
             }
 
             result.put(ConfluenceUtil.RESPONSE_BODY,responseBody);
+//            System.out.println("完成http请求, url: " + url + " , headers: " + JSON.toJSONString(headers) + " , requestEntity: " + requestEntity + " , responseBody: " + responseBody);
         }catch (Exception e){
 //            log.error("程序报错:{}",e);
             System.out.println("程序报错:"+e);

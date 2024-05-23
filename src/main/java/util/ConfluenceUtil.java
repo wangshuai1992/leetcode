@@ -215,8 +215,8 @@ public class ConfluenceUtil {
         String baseUrl = "https://confluencetest.midea.com";
         String parentId = "9472214";
         String spaceKey = "ITRDM";
-        String username = "test2024"; //confluence账号
-        String password = "123456";//confluence密码
+        String username = "test2024";
+        String password = "123456";
         String filePath = "D:\\Users\\wangshuai143\\Desktop\\人员选择器收藏功能.docx";
         createPageByFile(baseUrl,parentId,spaceKey,filePath,username,password);
     }

@@ -212,12 +212,12 @@ public class ConfluenceUtil {
     }
 
     public static void main(String[] args) {
-        String baseUrl = "https://confluencetest.midea.com";
+        String baseUrl = "";
         String parentId = "9472214";
         String spaceKey = "ITRDM";
         String username = "test2024";
         String password = "123456";
-        String filePath = "D:\\Users\\wangshuai143\\Desktop\\人员选择器收藏功能.docx";
+        String filePath = "D:\\Users\\wangshuai143\\Desktop\\xxxx.docx";
         createPageByFile(baseUrl,parentId,spaceKey,filePath,username,password);
     }
 

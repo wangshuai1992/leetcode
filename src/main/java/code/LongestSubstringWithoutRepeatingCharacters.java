@@ -135,7 +135,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
             if (!windowSet.contains(chars[j])) {
                 windowSet.add(chars[j]);
                 j++;
-                res = Math.max(res, j - i);
+                res = Math.max(res, windowSet.size());
             } else {
                 windowSet.remove(chars[i]);
                 i++;
@@ -153,7 +153,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring4(String s) {
         int res = 0;
         char[] chars = s.toCharArray();
-        // value : index
+        // value : index  记录某个字符最后出现的位置
         Map<Character, Integer> windowMap = new HashMap<>(chars.length);
         int i = 0;
         int j = 0;

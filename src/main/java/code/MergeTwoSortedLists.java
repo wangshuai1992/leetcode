@@ -120,10 +120,6 @@ public class MergeTwoSortedLists {
      * @return
      */
     public ListNode mergeTwoLists3(ListNode list1, ListNode list2) {
-        if(list1 == null || list2 == null) {
-            return list1 == null ? list2 : list1;
-        }
-
         ListNode dummy = new ListNode(0);
         ListNode cur = dummy;
         while (list1 != null && list2 != null) {

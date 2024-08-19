@@ -101,6 +101,45 @@ public class ReverseNodesInKGroup {
         return resultHead;
     }
 
+    /**
+     * recursive / 直接执行反转逻辑，发现链表不够长，再把链表反转回来
+     *
+     * @param head
+     * @param k
+     * @return
+     */
+    public ListNode reverseKGroup2(ListNode head, int k) {
+        if (head == null || head.next == null || k <= 1) {
+            return head;
+        }
+        int count = 1;
+        ListNode pre = null;
+        ListNode cur = head;
+        while (cur != null && count <= k) {
+            ListNode temp = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = temp;
+            count++;
+        }
+        if (count > k) {
+            // 反转后的尾结点(即最开始的head)的next指向后面待递归的部分
+            head.next = reverseKGroup(cur, k);
+        } else {
+            // 交换pre和cur 把链表顺序重新反转回来
+            cur = pre;
+            pre = null;
+            while (cur != null) {
+                ListNode temp = cur.next;
+                cur.next = pre;
+                pre = cur;
+                cur = temp;
+            }
+        }
+        // 返回新的头结点
+        return pre;
+    }
+
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         ListNode node2 = new ListNode(2);

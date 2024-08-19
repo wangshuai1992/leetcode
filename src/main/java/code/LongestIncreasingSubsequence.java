@@ -131,6 +131,46 @@ public class LongestIncreasingSubsequence {
         return len;
     }
 
+    /**
+     * https://labuladong.github.io/algo/di-er-zhan-a01c6/zi-xu-lie--6bc09/dong-tai-g-6ea57/#二二分查找解法
+     *
+     * 像遍历数组那样从左到右一张一张处理这些扑克牌，最终要把这些牌分成若干堆
+     * 1. 只能把点数小的牌压到点数比它大的牌上
+     * 2. 如果当前牌点数较大没有可以放置的堆，则新建一个堆，把这张牌放进去
+     * 3. 如果当前牌有多个堆可供选择，则选择最左边的那一堆放置(保证牌堆顶的牌有序)
+     * 最终牌的堆数就是最长递增子序列的长度
+     *
+     * @param nums
+     * @return
+     */
+    public int lengthOfLIS4(int[] nums) {
+        if (nums.length == 0) {
+            return 0;
+        }
+        // 记录牌堆顶的牌
+        int[] top = new int[nums.length];
+        int piles = 0;
+        for (int poker : nums) {
+            // 二分查找top数组中第一个>=poker的数
+            int left = 0;
+            int right = piles - 1;
+            while (left <= right) {
+                int mid = left + (right - left) / 2;
+                if (top[mid] >= poker) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            }
+            // 没找到合适的牌堆，新建一堆
+            if (left == piles) {
+                piles++;
+            }
+            // 把这张牌放到牌堆顶
+            top[left] = poker;
+        }
+        return piles;
+    }
 
     public static void main(String[] args) {
         int[] arr = {10, 9, 2, 5, 3, 4};

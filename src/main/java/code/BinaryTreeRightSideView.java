@@ -1,9 +1,6 @@
 package code;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * https://leetcode.com/problems/binary-tree-right-side-view/
@@ -46,6 +43,43 @@ public class BinaryTreeRightSideView {
             }
         }
         return result;
+    }
+
+    /**
+     * dfs
+     *
+     * @param root
+     * @return
+     */
+    public List<Integer> rightSideView1(TreeNode root) {
+        Map<Integer, Integer> rightmostValueAtDepth = new HashMap<>();
+        int maxDepth = -1;
+        Deque<TreeNode> nodeStack = new ArrayDeque<>();
+        Deque<Integer> depthStack = new ArrayDeque<>();
+        nodeStack.push(root);
+        depthStack.push(0);
+
+        while (!nodeStack.isEmpty()) {
+            TreeNode node = nodeStack.pop();
+            int depth = depthStack.pop();
+            if (node != null) {
+                // 维护二叉树的最大深度
+                maxDepth = Math.max(maxDepth, depth);
+                // 如果不存在对应深度的节点我们才插入
+                if (!rightmostValueAtDepth.containsKey(depth)) {
+                    rightmostValueAtDepth.put(depth, node.val);
+                }
+                nodeStack.push(node.left);
+                nodeStack.push(node.right);
+                depthStack.push(depth + 1);
+                depthStack.push(depth + 1);
+            }
+        }
+        List<Integer> rightView = new ArrayList<>();
+        for (int depth = 0; depth <= maxDepth; depth++) {
+            rightView.add(rightmostValueAtDepth.get(depth));
+        }
+        return rightView;
     }
 
     private static class TreeNode {

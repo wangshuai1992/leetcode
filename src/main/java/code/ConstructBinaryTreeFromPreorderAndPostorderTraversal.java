@@ -2,6 +2,8 @@ package code;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
@@ -28,28 +30,28 @@ public class ConstructBinaryTreeFromPreorderAndPostorderTraversal {
      * @return
      */
     public TreeNode constructFromPrePost(int[] pre, int[] post) {
-        Deque<TreeNode> s = new ArrayDeque<>();
-        s.offer(new TreeNode(pre[0]));
+        Deque<TreeNode> deque = new ArrayDeque<>();
+        deque.addLast(new TreeNode(pre[0]));
         for (int i = 1, j = 0; i < pre.length; ++i) {
             TreeNode node = new TreeNode(pre[i]);
-            while (s.getLast().val == post[j]) {
-                s.pollLast();
+            while (deque.getLast().val == post[j]) {
+                deque.pollLast();
                 j++;
             }
-            if (s.getLast().left == null) {
-                s.getLast().left = node;
+            if (deque.getLast().left == null) {
+                deque.getLast().left = node;
             } else {
-                s.getLast().right = node;
+                deque.getLast().right = node;
             }
-            s.offer(node);
+            deque.addLast(node);
         }
-        return s.getFirst();
+        return deque.getFirst();
     }
 
     /**
      * https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/discuss/161372/Logical-Thinking-with-Code-Beats-99.89
      * <p>
-     * Recursive / Divide and Conquer
+     * Recursive
      *
      * @param pre
      * @param post
@@ -60,31 +62,21 @@ public class ConstructBinaryTreeFromPreorderAndPostorderTraversal {
     }
 
     private TreeNode constructFromPrePost(int[] pre, int preStart, int preEnd, int[] post, int postStart, int postEnd) {
-        // Base cases.
         if (preStart > preEnd) {
             return null;
         }
-        if (preStart == preEnd) {
-            return new TreeNode(pre[preStart]);
-        }
-
-        // Build root.
         TreeNode root = new TreeNode(pre[preStart]);
+        if (preStart == preEnd) {
+            return root;
+        }
 
         // Locate left subtree.
         int leftSubRootInPre = preStart + 1;
         int leftSubRootInPost = findLeftSubRootInPost(pre[leftSubRootInPre], post, postStart, postEnd);
         int leftSubEndInPre = leftSubRootInPre + (leftSubRootInPost - postStart);
 
-        // Divide.
-        TreeNode leftSubRoot = constructFromPrePost(pre, leftSubRootInPre, leftSubEndInPre,
-                post, postStart, leftSubRootInPost);
-        TreeNode rightSubRoot = constructFromPrePost(pre, leftSubEndInPre + 1, preEnd,
-                post, leftSubRootInPost + 1, postEnd - 1);
-
-        // Conquer.
-        root.left = leftSubRoot;
-        root.right = rightSubRoot;
+        root.left = constructFromPrePost(pre, leftSubRootInPre, leftSubEndInPre, post, postStart, leftSubRootInPost);
+        root.right = constructFromPrePost(pre, leftSubEndInPre + 1, preEnd, post, leftSubRootInPost + 1, postEnd - 1);
         return root;
     }
 
@@ -95,6 +87,32 @@ public class ConstructBinaryTreeFromPreorderAndPostorderTraversal {
             }
         }
         throw new IllegalArgumentException();
+    }
+
+    private Map<Integer, Integer> postIndexMap = new HashMap<>();
+    private Map<Integer, Integer> preIndexMap = new HashMap<>();
+
+    public TreeNode constructFromPrePost2(int[] pre, int[] post) {
+        for (int i = 0; i < pre.length; i++) {
+            preIndexMap.put(pre[i], i);
+            postIndexMap.put(post[i], i);
+        }
+        return buildTree(0, pre.length - 1, pre, post);
+    }
+
+    private TreeNode buildTree(int start, int end, int[] pre, int[] post) {
+        if (start > end) {
+            return null;
+        }
+        int rootVal = pre[start];
+        if (start == end) {
+            return new TreeNode(rootVal);
+        }
+        TreeNode root = new TreeNode(pre[start]);
+        int rightTreeStartIndex = preIndexMap.get(post[postIndexMap.get(rootVal) - 1]);
+        root.left = buildTree(start + 1, rightTreeStartIndex - 1, pre, post);
+        root.right = buildTree(rightTreeStartIndex, end, pre, post);
+        return root;
     }
 
     private static class TreeNode {

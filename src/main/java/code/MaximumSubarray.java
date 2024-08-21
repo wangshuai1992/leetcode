@@ -10,7 +10,7 @@ package code;
 public class MaximumSubarray {
 
     /**
-     * Brute Force
+     * Brute Force / O(n^3) time
      *
      * @param nums
      * @return
@@ -30,10 +30,41 @@ public class MaximumSubarray {
     }
 
     /**
+     * dp
+     * O(n) time, O(n) space
+     *
      * @param nums
      * @return
      */
     public int maxSubArray1(int[] nums) {
+        int n = nums.length;
+        if (n == 0) {
+            return 0;
+        }
+        // 定义：dp[i] 记录以 nums[i] 为结尾的「最大子数组和」
+        int[] dp = new int[n];
+        // base case
+        // 第一个元素前面没有子数组
+        dp[0] = nums[0];
+        // 状态转移方程
+        for (int i = 1; i < n; i++) {
+            dp[i] = Math.max(nums[i], nums[i] + dp[i - 1]);
+        }
+        // 得到 nums 的最大子数组
+        int res = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+            res = Math.max(res, dp[i]);
+        }
+        return res;
+    }
+
+    /**
+     * O(n) time , O(1) space
+     *
+     * @param nums
+     * @return
+     */
+    public int maxSubArray2(int[] nums) {
         int sum = 0;
         int max = nums[0];
         for(int x : nums) {
@@ -59,7 +90,7 @@ public class MaximumSubarray {
      * @param nums
      * @return
      */
-    public int maxSubArray2(int[] nums) {
+    public int maxSubArray3(int[] nums) {
         //global max
         int maxSoFar = nums[0];
         //local max (must include nums[i])
@@ -78,7 +109,7 @@ public class MaximumSubarray {
      * @param nums
      * @return
      */
-    public int maxSubArray3(int[] nums) {
+    public int maxSubArray4(int[] nums) {
         return find(nums, 0, nums.length - 1);
     }
 

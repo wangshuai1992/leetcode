@@ -38,6 +38,31 @@ public class PalindromeLinkedList {
         return true;
     }
 
+    // 左侧指针
+    private ListNode leftGlobal;
+
+    /**
+     * 递归 O(n) time, O(n) space（使用栈深度）
+     *
+     * @param head
+     * @return
+     */
+    public boolean isPalindrome1(ListNode head) {
+        leftGlobal = head;
+        return traverse(head);
+    }
+
+    private boolean traverse(ListNode right) {
+        if (right == null) {
+            return true;
+        }
+        boolean res = traverse(right.next);
+        // 后序遍历代码
+        res = res && (right.val == leftGlobal.val);
+        leftGlobal = leftGlobal.next;
+        return res;
+    }
+
     /**
      * O(n) time, O(1) space
      *
@@ -46,7 +71,7 @@ public class PalindromeLinkedList {
      * @param head
      * @return
      */
-    public boolean isPalindrome1(ListNode head) {
+    public boolean isPalindrome2(ListNode head) {
         if (head == null || head.next == null) {
             return true;
         }
@@ -89,43 +114,32 @@ public class PalindromeLinkedList {
     }
 
     /**
-     * O(n) time, O(1) space
+     * O(n) time, O(1) space / 用快慢指针找到链表后半段的开始节点，反转后半段节点并逐一与前半段比较
      *
      * @param head
      * @return
      */
-    public boolean isPalindrome2(ListNode head) {
-        ListNode reverse = new ListNode(-1);
-        reverse.next = head;
-        ListNode last = null;
-        ListNode fast = reverse;
-        ListNode slow;
-        ListNode next = reverse.next;
-
-        // reverse the front half linklist
+    public boolean isPalindrome3(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
         while (fast != null && fast.next != null) {
+            slow = slow.next;
             fast = fast.next.next;
-            slow = next;
-            next = slow.next;
-            if (last == null) {
-                last = slow;
-            } else {
-                last.next = slow.next;
-                slow.next = reverse.next;
-                reverse.next = slow;
-            }
         }
-        slow = reverse.next;
-        if (fast == null) {
+        // 如果fast指针没有指向null, 说明链表长度为奇数, 此时slow在最中间节点, slow还要再前进一步
+        if (fast != null) {
             slow = slow.next;
         }
-        fast = next;
-        while (fast != null) {
-            if (slow.val != fast.val) {
+
+        ListNode left = head;
+        // 反转后半部分链表
+        ListNode right = reverse(slow);
+        while (right != null) {
+            if (left.val != right.val) {
                 return false;
             }
-            fast = fast.next;
-            slow = slow.next;
+            left = left.next;
+            right = right.next;
         }
         return true;
     }

@@ -13,8 +13,6 @@ import java.util.*;
  */
 public class LowestCommonAncestorOfABinaryTree {
 
-    private TreeNode ans;
-
     /**
      * Judge if p and q are in one side of a sub tree from top to bottom
      *
@@ -51,7 +49,12 @@ public class LowestCommonAncestorOfABinaryTree {
     }
 
     /**
-     * Recursive / O(N) time, O(N) space
+     * 后续遍历
+     * https://www.cnblogs.com/labuladong/p/13976582.html
+     * 扩展定义 (题目定义公共祖先必定存在, 递归的最外层肯定是第一种情况)
+     *   1. 如果 p 和 q 都在以 root 为根的树中, 函数返回的就是 p 和 q 的最近公共祖先节点
+     *   2. 那如果 p 和 q 都不在以 root 为根的树中, 返回null
+     *   3. 如果 p 和 q 只有一个存在于 root 为根的树中, 则返回这个存在的节点
      *
      * @param root
      * @param p
@@ -59,6 +62,40 @@ public class LowestCommonAncestorOfABinaryTree {
      * @return
      */
     public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
+        // base case
+        if (root == null) {
+            return null;
+        }
+        if (root == p || root == q) {
+            return root;
+        }
+
+        TreeNode left = lowestCommonAncestor1(root.left, p, q);
+        TreeNode right = lowestCommonAncestor1(root.right, p, q);
+        // 情况 1. 如果 p 和 q 都在以 root 为根的树中，那么 left 和 right 一定分别是 p 和 q（从 base case 看出来的）。
+        if (left != null && right != null) {
+            // 由于是后续遍历 是从下往上的 所以这里第一次相交的就是最近祖先
+            return root;
+        }
+        // 情况 2. 如果 p 和 q 都不在以 root 为根的树中，直接返回 null。
+        if (left == null && right == null) {
+            return null;
+        }
+        // 情况 3. 如果 p 和 q 只有一个存在于 root 为根的树中，函数返回该节点。
+        return left == null ? right : left;
+    }
+
+    private TreeNode ans;
+
+    /**
+     * Recursive / O(N) time, O(N) space
+     *
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     */
+    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
         recurseTree(root, p, q);
         return ans;
     }
@@ -94,7 +131,7 @@ public class LowestCommonAncestorOfABinaryTree {
      * @param q
      * @return
      */
-    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestor3(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
             return null;
         }
@@ -162,7 +199,7 @@ public class LowestCommonAncestorOfABinaryTree {
      * @param q
      * @return
      */
-    public TreeNode lowestCommonAncestor3(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestor4(TreeNode root, TreeNode p, TreeNode q) {
         Deque<Pair<TreeNode, Integer>> stack = new ArrayDeque<>();
         // Initialize the stack with the root node.
         stack.push(new Pair<TreeNode, Integer>(root, BOTH_PENDING));

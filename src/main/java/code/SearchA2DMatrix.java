@@ -63,18 +63,22 @@ public class SearchA2DMatrix {
         }
         int row = matrix.length;
         int col = matrix[0].length;
-
         int left = 0;
-        int right = row * col;
-        while (left + 1 != right) {
-            int mid = (left + right) >> 1;
-            if (matrix[mid / col][mid % col] > target) {
-                right = mid;
-            } else {
-                left = mid;
+        int right = row * col - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int value = matrix[mid / col][mid % col];
+            if (value == target) {
+                return true;
+            }
+            if (value < target) {
+                left = mid + 1;
+            }
+            if (value > target) {
+                right = mid - 1;
             }
         }
-        return matrix[left / col][left % col] == target;
+        return false;
     }
 
 }

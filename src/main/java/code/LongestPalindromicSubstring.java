@@ -7,10 +7,11 @@ package code;
  * @version V1.0
  * @date 2020-09-10 10:18
  */
+@SuppressWarnings("SimplifiableIfStatement")
 public class LongestPalindromicSubstring {
 
     /**
-     * recursive
+     * recursive / 找到所有子串 判断是不是回文，如果是并且长度超过了maxLen，则记录长度和位置
      *
      * @param s
      * @return
@@ -40,7 +41,7 @@ public class LongestPalindromicSubstring {
         if (end - start <= 0) {
             return true;
         }
-        return chars[start] == chars[end] && (end - start < 3 || recurse(chars, start + 1, end - 1));
+        return chars[start] == chars[end] && recurse(chars, start + 1, end - 1);
     }
 
     /**
@@ -96,7 +97,9 @@ public class LongestPalindromicSubstring {
         int start = 0;
         int end = 0;
         for (int i = 0; i < chars.length; i++) {
+            // 从一个字符扩展
             int len1 = expandAroundCenter(chars, i, i);
+            // 以两个字符之间的空位为轴扩展
             int len2 = expandAroundCenter(chars, i, i + 1);
             int len = Math.max(len1, len2);
             if (len > end - start) {

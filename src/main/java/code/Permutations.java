@@ -72,6 +72,48 @@ public class Permutations {
         }
     }
 
+    /**
+     * O(n*n!) time
+     *
+     * @param nums
+     * @return
+     */
+    public List<List<Integer>> permute2(int[] nums) {
+        // track 中的元素会被标记为 true
+        boolean[] used = new boolean[nums.length];
+        // 结果
+        List<List<Integer>> res = new LinkedList<>();
+        // 记录回溯算法的递归路径
+        LinkedList<Integer> track = new LinkedList<>();
+        backtrack(nums, used, track, res);
+        return res;
+    }
+
+    private void backtrack(int[] nums, boolean[] used, List<Integer> track, List<List<Integer>> res) {
+        // base case，到达叶子节点
+        if (track.size() == nums.length) {
+            // 收集叶子节点上的值
+            res.add(new ArrayList<>(track));
+            return;
+        }
+
+        // 回溯算法标准框架
+        for (int i = 0; i < nums.length; i++) {
+            // 已经存在 track 中的元素，不能重复选择
+            if (used[i]) {
+                continue;
+            }
+            // 做选择
+            used[i] = true;
+            track.add(nums[i]);
+            // 进入下一层回溯树
+            backtrack(nums, used, track, res);
+            // 取消选择
+            track.remove(track.size() - 1);
+            used[i] = false;
+        }
+    }
+
     public static void main(String[] args) {
         int[] nums = {1, 2, 3};
         System.out.println(new Permutations().permute(nums));

@@ -1,6 +1,7 @@
 package code;
 
 import java.util.PriorityQueue;
+import java.util.Queue;
 
 /**
  * https://leetcode.com/problems/kth-largest-element-in-an-array/
@@ -9,6 +10,7 @@ import java.util.PriorityQueue;
  * @version V1.0
  * @date 2018-11-16 10:39
  */
+@SuppressWarnings("DataFlowIssue")
 public class KthLargestElementInAnArray {
 
     /**
@@ -19,11 +21,9 @@ public class KthLargestElementInAnArray {
      * @return
      */
     public int findKthLargest(int[] nums, int k) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>(k);
+        Queue<Integer> minHeap = new PriorityQueue<>(k + 1);
         for (int n : nums) {
-            if (minHeap.size() < k || minHeap.peek() < n) {
-                minHeap.offer(n);
-            }
+            minHeap.offer(n);
             if (minHeap.size() > k) {
                 minHeap.poll();
             }
@@ -39,11 +39,11 @@ public class KthLargestElementInAnArray {
      * @return
      */
     public int findKthLargest1(int[] nums, int k) {
-
         k = nums.length - k;
         int low = 0;
         int high = nums.length - 1;
-        while (low < high) {
+        // 类似二分查找
+        while (low <= high) {
             int j = partition(nums, low, high);
             if (j < k) {
                 low = j + 1;
@@ -56,25 +56,38 @@ public class KthLargestElementInAnArray {
         return nums[k];
     }
 
-    private int partition(int[] a, int low, int high) {
-        //将a[low]的值作为pivot
-        int pivot = a[low];
-        while (low < high) {
-            while (low < high && a[high] >= pivot) {
-                --high;
+    private int partition(int[] nums, int low, int high) {
+        int pivot = nums[low];
+        // 关于区间的边界控制需格外小心，稍有不慎就会出错
+        // 这里把 i, j 定义为开区间，同时定义：
+        // [lo, i) <= pivot
+        // (j, hi] > pivot
+        // 之后都要正确维护这个边界区间的定义
+        int i = low + 1;
+        int j = high;
+        // 因为[i, j]是闭区间 所以相等时候也要进入while循环
+        while (i <= j) {
+            // 从左开始找大于pivot的数
+            while(i < high && nums[i] <= pivot) {
+                i++;
             }
-            //交换比pivot小的记录到左端
-            a[low] = a[high];
-            while (low < high && a[low] <= pivot) {
-                ++low;
+            // 从右开始找小于等于pivot的数
+            while(j > low && nums[j] > pivot) {
+                j--;
             }
-            //交换比pivot小的记录到右端
-            a[high] = a[low];
+            if (i >= j) {
+                break;
+            }
+            swap(nums, i, j);
         }
-        //扫描完成，pivot到位
-        a[low] = pivot;
-        //返回的是pivot的位置
-        return low;
+        swap(nums, low, j);
+        return j;
+    }
+
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 
 }

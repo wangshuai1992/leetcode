@@ -10,25 +10,28 @@ package code;
 public class ConstructBinarySearchTreeFromPreorderTraversal {
 
     public TreeNode bstFromPreorder(int[] preorder) {
-        return recurse(preorder, 0, preorder.length);
+        return buildTree(preorder, 0, preorder.length - 1);
     }
 
-    private TreeNode recurse(int[] arr, int start, int end) {
-        if(start >= end || start >= arr.length) {
+    private TreeNode buildTree(int[] preorder, int from, int to) {
+        if (from > to) {
             return null;
         }
-
-        int rootVal = arr[start];
+        int rootVal = preorder[from];
         TreeNode root = new TreeNode(rootVal);
-
-        for(int i = start + 1; i < end; i++) {
-            if(arr[i] > rootVal) {
-                root.left = recurse(arr, start + 1, i);
-                root.right = recurse(arr, i, end);
-                return root;
+        if (from == to) {
+            return root;
+        }
+        // 注意 没有右子树时这个index是右边界
+        int rightStartIndex = to + 1;
+        for (int i = from + 1; i <= to; i++) {
+            if (preorder[i] > rootVal) {
+                rightStartIndex = i;
+                break;
             }
         }
-        root.left = recurse(arr, start + 1, end);
+        root.left = buildTree(preorder, from + 1, rightStartIndex - 1);
+        root.right = buildTree(preorder, rightStartIndex, to);
         return root;
     }
 

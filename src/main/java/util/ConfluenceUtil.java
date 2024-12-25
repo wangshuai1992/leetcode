@@ -2,7 +2,9 @@ package util;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.TypeReference;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -19,6 +21,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.nio.charset.StandardCharsets;
@@ -29,6 +33,7 @@ public class ConfluenceUtil {
 
     public static final String RESPONSE_BODY = "body";
     public static final String RESPONSE_COOKIE = "cookie";
+    private static final Logger log = LoggerFactory.getLogger(ConfluenceUtil.class);
 
     public static boolean createPageByFile(String baseUrl,String parentId,String spaceKey,
                                            String filePath,String username,String password){
@@ -211,14 +216,78 @@ public class ConfluenceUtil {
         return result;
     }
 
+    public static void printAllSubPage() {
+        // 从桌面读取文件
+        File file = new File("D:\\Users\\wangshuai143\\Desktop\\111.json");
+        String json = FileUtils.getFileContent(file);
+        List<ConfluencePageVo> data = JSON.parseObject(json, new TypeReference<List<ConfluencePageVo>>() {});
+        String pageTitle = "7 全球派遣 Global Mobility";
+        //        String pageTitle = "5 薪酬福利";
+        ConfluencePageVo pageVo = findPageByTitle(data, pageTitle);
+        List<ConfluencePageVo> pageVos = new ArrayList<>();
+        pageVos.add(pageVo);
+        pageVos.addAll(getAllSubPage(pageVo));
+        List<String> lines = new ArrayList<>();
+        for (ConfluencePageVo vo : pageVos) {
+            lines.add(vo.getTitle() + ":" + vo.getUrl());
+        }
+        //        Collections.sort(lines);
+        for (String line : lines) {
+            System.out.println(line);
+        }
+    }
+
+    private static ConfluencePageVo findPageByTitle(List<ConfluencePageVo> data, String pageTitle) {
+        if (CollectionUtils.isEmpty(data)) {
+            return null;
+        }
+        for (ConfluencePageVo pageVo : data) {
+            if (pageTitle.equals(pageVo.getTitle())) {
+                return pageVo;
+            }
+            ConfluencePageVo page = findPageByTitle(pageVo.getChildrenPages(), pageTitle);
+            if (page != null) {
+                return page;
+            }
+        }
+        return null;
+    }
+
+    private static List<ConfluencePageVo> getAllSubPage(ConfluencePageVo pageVo) {
+        if (pageVo == null) {
+            return new ArrayList<>();
+        }
+        List<ConfluencePageVo> children = pageVo.getChildrenPages();
+        if (CollectionUtils.isEmpty(children)) {
+            return new ArrayList<>();
+        }
+        List<ConfluencePageVo> allSubPage = new ArrayList<>();
+        for (ConfluencePageVo child : children) {
+            allSubPage.add(child);
+            List<ConfluencePageVo> subPage = getAllSubPage(child);
+            if (CollectionUtils.isNotEmpty(subPage)) {
+                allSubPage.addAll(subPage);
+            }
+        }
+        allSubPage.sort(Comparator.comparing(ConfluencePageVo::getTitle));
+        return allSubPage;
+    }
+
     public static void main(String[] args) {
-        String baseUrl = "";
-        String parentId = "9472214";
-        String spaceKey = "ITRDM";
-        String username = "test2024";
-        String password = "123456";
-        String filePath = "D:\\Users\\wangshuai143\\Desktop\\xxxx.docx";
-        createPageByFile(baseUrl,parentId,spaceKey,filePath,username,password);
+//        String baseUrl = "https://321323.com";
+//        String parentId = "230721489";
+//        String spaceKey = "guiantest";
+//        String username = "test2024";
+//        String password = "321444";
+//        String filePath = "D:\\1721987183472.docx";
+//        createPageByFile(baseUrl,parentId,spaceKey,filePath,username,password);
+
+//        String username = "323213";
+//        String password = "121";
+//        String author = Base64.getEncoder().encodeToString((username + ":" + password).getBytes());
+//        System.out.println(author);
+
+        printAllSubPage();
     }
 
 }

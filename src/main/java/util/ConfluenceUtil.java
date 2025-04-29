@@ -221,7 +221,7 @@ public class ConfluenceUtil {
         File file = new File("D:\\Users\\wangshuai143\\Desktop\\111.json");
         String json = FileUtils.getFileContent(file);
         List<ConfluencePageVo> data = JSON.parseObject(json, new TypeReference<List<ConfluencePageVo>>() {});
-        String pageTitle = "7 全球派遣 Global Mobility";
+        String pageTitle = "HR知识库";
         //        String pageTitle = "5 薪酬福利";
         ConfluencePageVo pageVo = findPageByTitle(data, pageTitle);
         List<ConfluencePageVo> pageVos = new ArrayList<>();

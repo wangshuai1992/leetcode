@@ -1,18 +1,41 @@
 package util;
 
 import java.util.Base64;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
 
 public class Test1 {
 
     /**
-     * /x/aN9oDw
-     * /pages/viewpage.action?pageId=258531176
+     * 将整数转换为4字节的字节数组（与Perl的 pack("L") 等效）
+     *
+     * @param value 整数值
+     * @return 4字节的字节数组
      */
-    public static void main(String[] args) {
-        String pageId = "258531176";
-        String shortLink = "aN9oDw";
-        System.out.println("生成shortLink: " + generateShortLink(pageId));
-        System.out.println("Decoded pageId: " + decodeShortLink(shortLink));
+    private static byte[] intToByteArray(int value) {
+        return new byte[]{
+            (byte) (value & 0xFF),
+            (byte) ((value >> 8) & 0xFF),
+            (byte) ((value >> 16) & 0xFF),
+            (byte) ((value >> 24) & 0xFF)
+        };
+    }
+
+    /**
+     * 将4字节的字节数组转换为整数（与Perl的 unpack("L") 等效）
+     *
+     * @param bytes 4字节的字节数组
+     * @return 解码后的整数
+     */
+    private static int byteArrayToInt(byte[] bytes) {
+        if (bytes.length != 4) {
+            throw new IllegalArgumentException("Invalid byte array length for decoding pageId");
+        }
+        return (bytes[3] & 0xFF) << 24 |
+            (bytes[2] & 0xFF) << 16 |
+            (bytes[1] & 0xFF) << 8 |
+            (bytes[0] & 0xFF);
     }
 
     /**
@@ -46,44 +69,30 @@ public class Test1 {
      */
     public static String decodeShortLink(String shortLink) {
         // 将URL安全字符替换回Base64标准字符
-        shortLink = shortLink.replaceAll("-", "/").replaceAll("_", "+").replaceAll("/", "\n");
-
+        shortLink = shortLink.replaceAll("-", "/").replaceAll("_", "+");
         // Base64解码
         byte[] decodedBytes = Base64.getDecoder().decode(shortLink);
-
         // 将字节数组转换为整数（还原pageId）
         return String.valueOf(byteArrayToInt(decodedBytes));
     }
 
     /**
-     * 将整数转换为4字节的字节数组（与Perl的 pack("L") 等效）
-     *
-     * @param value 整数值
-     * @return 4字节的字节数组
      */
-    private static byte[] intToByteArray(int value) {
-        return new byte[]{
-                (byte) (value & 0xFF),
-                (byte) ((value >> 8) & 0xFF),
-                (byte) ((value >> 16) & 0xFF),
-                (byte) ((value >> 24) & 0xFF)
-        };
-    }
-
-    /**
-     * 将4字节的字节数组转换为整数（与Perl的 unpack("L") 等效）
-     *
-     * @param bytes 4字节的字节数组
-     * @return 解码后的整数
-     */
-    private static int byteArrayToInt(byte[] bytes) {
-        if (bytes.length != 4) {
-            throw new IllegalArgumentException("Invalid byte array length for decoding pageId");
+    public static void main(String[] args) {
+        Map<String, String> map = new HashMap<>();
+        map.put("aN9oDw", "258531176");
+        map.put("Fp_GCw", "193371926");
+        map.put("V-B1Cg", "175501399");
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            String shortLink = entry.getKey();
+            String pageId = entry.getValue();
+            String decodedPageId = decodeShortLink(shortLink);
+            if (Objects.equals(pageId, decodedPageId)) {
+                System.out.println("短链接: " + shortLink + " 解码成功，pageId: " + decodedPageId);
+            } else {
+                System.out.println("短链接: " + shortLink + " 解码失败，期望 pageId: " + pageId + " 实际 pageId: " + decodedPageId);
+            }
         }
-        return (bytes[3] & 0xFF) << 24 |
-                (bytes[2] & 0xFF) << 16 |
-                (bytes[1] & 0xFF) << 8 |
-                (bytes[0] & 0xFF);
     }
 
 }
